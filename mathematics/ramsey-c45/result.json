@@ -1,0 +1,17 @@
+{
+  "id": "ramsey-c45",
+  "title": "Ramsey multiplicity c₄,₅",
+  "reference": "2129191/2²⁸",
+  "result": "1081216445/2³⁷",
+  "meaning": "A smaller upper bound on the limiting density of monochromatic cliques in two-colorings.",
+  "source_url": "https://arxiv.org/abs/2206.04036",
+  "artifact_description": "The final graph on 1024 vertices, in graph6 format and as a generating set.",
+  "artifacts": [
+    {
+      "file": "construction.graph6"
+    },
+    {
+      "file": "generators.txt"
+    }
+  ]
+}

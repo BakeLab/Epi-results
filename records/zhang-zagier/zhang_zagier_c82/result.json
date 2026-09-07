@@ -1,0 +1,14 @@
+{
+  "id": "zhang_zagier_c82",
+  "category": "zhang-zagier",
+  "title": "C_82: the essential minimum of the Zhang-Zagier height",
+  "direction": "min",
+  "baseline": 0.2536331090204145,
+  "result": 0.25357447490682267,
+  "improvement": 5.863411359185999e-05,
+  "source_url": "https://github.com/maaxgrin/zhang-zagier-c82-bound",
+  "source": "Grinsztajn, C82 Zhang–Zagier bound",
+  "cohort": "announcement",
+  "construction": "records/zhang-zagier/zhang_zagier_c82/construction.json",
+  "parameters": {}
+}

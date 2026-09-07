@@ -1,0 +1,14 @@
+{
+  "id": "ising_ea3d_n2084",
+  "category": "spin-glass",
+  "title": "3D Edwards-Anderson spin glass, N = 2084: minimise the energy",
+  "direction": "min",
+  "baseline": -3247.1509611380957,
+  "result": -3247.334606022995,
+  "improvement": 0.18364488489942232,
+  "source_url": "https://zenodo.org/records/16547191",
+  "source": "Zhang and Kamenev, SpinGlassData, N_2084_realization_1",
+  "cohort": "announcement",
+  "construction": "records/spin-glass/ising_ea3d_n2084/construction.json",
+  "parameters": {}
+}

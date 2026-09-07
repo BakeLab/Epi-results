@@ -1,0 +1,21 @@
+{
+  "id": "cvrp_xl_n1048_k237",
+  "category": "vehicle-routing",
+  "title": "CVRPLIB XL instance XL-n1048-k237: capacitated vehicle routing, minimise total route length",
+  "direction": "min",
+  "baseline": 380107.0,
+  "result": 380092.0,
+  "improvement": 15.0,
+  "source_url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/instances",
+  "source": "CVRPLIB, XL-n1048-k237; BKS snapshot of 2 September 2026",
+  "cohort": "announcement",
+  "construction": "records/vehicle-routing/cvrp_xl_n1048_k237/construction.json",
+  "parameters": {
+    "n_customers": 1047,
+    "capacity": 128,
+    "instance_name": "XL-n1048-k237",
+    "dimension": 1048,
+    "edge_length": "EUC_2D rounded to the nearest integer (no .5 ties exist: integer coordinates)",
+    "customer_numbering": "node id minus one, as in the .sol file; depot is node 1"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "cap-body-illumination",
+  "title": "Cap-body illumination",
+  "reference": "103, 157, 236, 353, 520, 769, 1127",
+  "result": "102, 154, 233, 347, 514, 757, 1110",
+  "meaning": "Seven improved upper bounds on illumination numbers, in dimensions 9 through 15 respectively.",
+  "source_url": "https://arxiv.org/abs/2510.25968",
+  "artifact_description": "The final discretized coefficients for each dimension. The dual inequalities hold in rational arithmetic for these coefficients.",
+  "artifacts": [
+    {
+      "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+      "file": "cap-body-illumination/coefficients-d10.json",
+      "bytes": 2621012,
+      "sha256": "89982cfa4d95569b429f601db2959f72d5783d649003a415f6300edb875e3029"
+    },
+    {
+      "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+      "file": "cap-body-illumination/coefficients-d11.json",
+      "bytes": 329135,
+      "sha256": "3a371191a4a224b89a4a614afbfb04c00dd7f802df383f79b9c07c2f05228b70"
+    },
+    {
+      "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+      "file": "cap-body-illumination/coefficients-d12.json",
+      "bytes": 660905,
+      "sha256": "732fd93783dbdf6754d9f38e0f8a81c12dc3d12c8901861c507138e4637fe8cf"
+    },
+    {
+      "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+      "file": "cap-body-illumination/coefficients-d13.json",
+      "bytes": 1322841,
+      "sha256": "fdfbaefc15b33184865ae0cf7c257c50677e5b63d525ade08745dbf70f95942b"
+    },
+    {
+      "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+      "file": "cap-body-illumination/coefficients-d14.json",
+      "bytes": 1339448,
+      "sha256": "40eeca90a9d961b838c93dee497513de6573d2ff9f0c6c4fb1433e87bc394a14"
+    },
+    {
+      "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+      "file": "cap-body-illumination/coefficients-d15.json",
+      "bytes": 6896961,
+      "sha256": "6c4db60d661f1a38b35e9044ee311896209b0ece550d5e66fd3d3fcc542f35b1"
+    },
+    {
+      "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+      "file": "cap-body-illumination/coefficients-d9.json",
+      "bytes": 161494,
+      "sha256": "814ce1d31d21ac7c8600a6fc139420e4bcebac79a59a0debd2d1c8681b92332e"
+    }
+  ]
+}

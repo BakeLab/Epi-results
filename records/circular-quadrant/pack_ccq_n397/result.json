@@ -1,0 +1,18 @@
+{
+  "id": "pack_ccq_n397",
+  "category": "circular-quadrant",
+  "title": "Packomania ccq, N = 397: equal circles in a circular quadrant, maximise the common radius",
+  "direction": "max",
+  "baseline": 0.02324344342224974,
+  "result": 0.02324435121258936,
+  "improvement": 9.077903396180476e-07,
+  "source_url": "https://packomania.com/ccq/txt/ccq397.txt",
+  "source": "Eckard Specht, Packomania",
+  "cohort": "announcement",
+  "construction": "records/circular-quadrant/pack_ccq_n397/construction.json",
+  "parameters": {
+    "container": "quadrant",
+    "dim": 2,
+    "n_objects": 397
+  }
+}

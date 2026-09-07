@@ -1,0 +1,23 @@
+{
+  "id": "nqueens",
+  "title": "The n-queens constant",
+  "reference": "[1.944000752, 1.944001082]",
+  "result": "[1.9440010215426898890, 1.944001037277282194256]",
+  "meaning": "An interval for the constant α in the asymptotic count of n-queens configurations, narrowed by approximately 21×.",
+  "source_url": "https://web.stanford.edu/~boyd/papers/n_queens.html",
+  "artifact_description": "The lower witness has n = 32,768 and the upper witness has n = 2,048. The bounds use rational feasibility checks and directed rounding.",
+  "artifacts": [
+    {
+      "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+      "file": "nqueens/lower-n32768.npz",
+      "bytes": 1573112,
+      "sha256": "038bf2313680500116397de8c06332b2793c10f2f07b0a17a1607f0afce40f15"
+    },
+    {
+      "file": "upper-n2048.npz",
+      "url": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/upper-n2048.npz",
+      "bytes": 114158953,
+      "sha256": "cbc58e38224a63adc07928b53c85a36366c03a18e31a6668f2113d1da32043c5"
+    }
+  ]
+}

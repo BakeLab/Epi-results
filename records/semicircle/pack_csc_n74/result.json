@@ -1,0 +1,18 @@
+{
+  "id": "pack_csc_n74",
+  "category": "semicircle",
+  "title": "Packomania csc, N = 74: equal circles in a semicircle, maximise the common radius",
+  "direction": "max",
+  "baseline": 0.07381415188709026,
+  "result": 0.07382451806779226,
+  "improvement": 1.0366180702006678e-05,
+  "source_url": "https://packomania.com/csc/txt/csc74.txt",
+  "source": "Eckard Specht, Packomania",
+  "cohort": "announcement",
+  "construction": "records/semicircle/pack_csc_n74/construction.json",
+  "parameters": {
+    "container": "semicircle",
+    "dim": 2,
+    "n_objects": 74
+  }
+}

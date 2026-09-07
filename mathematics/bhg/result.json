@@ -1,0 +1,14 @@
+{
+  "id": "bhg",
+  "title": "Timmons’ Bₕ[g] constants",
+  "reference": "14.295, 71.489, 413.046, 2774.14, 21294.6",
+  "result": "≈ 14.287456, 70.289945, 408.107011, 2749.511553, 21149.342141",
+  "meaning": "Improved upper-bound coefficients for generalized Sidon sets, for h = 3, 4, 5, 6, 7.",
+  "source_url": "https://arxiv.org/abs/1604.00661",
+  "artifact_description": "The final degree-400 cosine-polynomial coefficients for h = 3, 4, 5, 6, 7. The reported values use floating-point evaluation with an interpolation margin.",
+  "artifacts": [
+    {
+      "file": "polynomials.json"
+    }
+  ]
+}

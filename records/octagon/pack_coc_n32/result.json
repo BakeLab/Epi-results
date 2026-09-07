@@ -1,0 +1,18 @@
+{
+  "id": "pack_coc_n32",
+  "category": "octagon",
+  "title": "Packomania coc, N = 32: equal circles in a regular octagon, maximise the common radius",
+  "direction": "max",
+  "baseline": 0.147282442434,
+  "result": 0.14729738042484086,
+  "improvement": 1.4937990840874216e-05,
+  "source_url": "https://packomania.com/coc/txt/coc32.txt",
+  "source": "Eckard Specht, Packomania",
+  "cohort": "announcement",
+  "construction": "records/octagon/pack_coc_n32/construction.json",
+  "parameters": {
+    "container": "octagon",
+    "dim": 2,
+    "n_objects": 32
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "qubit_routing",
+  "category": "qubit-routing",
+  "title": "qubit_routing",
+  "direction": "min",
+  "baseline": 258366.0,
+  "result": 254226.0,
+  "improvement": 4140.0,
+  "source_url": "https://github.com/Tencent-Hunyuan/hyra-results/tree/main/AI4Science/qubit_routing",
+  "source": "Hyra quantum circuit routing results",
+  "cohort": "announcement",
+  "construction": "records/qubit-routing/qubit_routing/construction.json.gz",
+  "parameters": {},
+  "literature_value": 258369,
+  "baseline_note": "258366 is recomputed from the published circuit files; the upstream README reports 258369."
+}

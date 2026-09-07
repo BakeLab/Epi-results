@@ -1,0 +1,20 @@
+{
+  "id": "klarner",
+  "title": "Klarner’s constant",
+  "reference": "4.5238",
+  "result": "4.405 = 881/200",
+  "meaning": "An upper bound on the exponential growth rate of the number of polyominoes.",
+  "source_url": "https://arxiv.org/abs/2511.00461",
+  "artifact_description": "321 rational inequalities and their supersolution at z = 200/881.",
+  "artifacts": [
+    {
+      "file": "certificate.json"
+    },
+    {
+      "file": "patterns.txt"
+    },
+    {
+      "file": "rules.txt"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "grothendieck",
+  "title": "Grothendieck constant of order four",
+  "reference": "1.782213… (inherited global bound)",
+  "result": "1.681221823",
+  "meaning": "A dedicated upper bound for K_G(4).",
+  "source_url": "https://arxiv.org/abs/2302.04721",
+  "artifact_description": "A rational local model on four-dimensional measurement directions, with the two shrinking-factor values.",
+  "artifacts": [
+    {
+      "file": "eta_N.txt"
+    },
+    {
+      "file": "eta_clo.txt"
+    },
+    {
+      "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+      "file": "grothendieck/local-model.npz",
+      "bytes": 4190786,
+      "sha256": "2c2afd11047eb7c3c3ddd2437c140b850dac99b81585323406e853633e058da6"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "penintri_n38",
+  "category": "pentagons",
+  "title": "",
+  "direction": "min",
+  "baseline": 13.849956659137431,
+  "result": 13.823132023718685,
+  "improvement": 0.026824635418746468,
+  "source_url": "https://erich-friedman.github.io/packing/penintri/",
+  "source": "Erich Friedman, pentagons in triangles",
+  "cohort": "earlier-pentagon-refinement",
+  "construction": "records/pentagons/penintri_n38/construction.json",
+  "parameters": {
+    "n": 38,
+    "angle_unit": "radians",
+    "pentagon_side": 1,
+    "vertex_offset": "pi/10",
+    "overlap_tolerance": 1e-12
+  },
+  "literature_value": 13.86558
+}

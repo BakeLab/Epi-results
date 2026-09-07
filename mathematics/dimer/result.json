@@ -1,0 +1,17 @@
+{
+  "id": "dimer",
+  "title": "Dimer entropy in three dimensions",
+  "reference": "upper bound 0.452130",
+  "result": "upper bound 0.452009597554483",
+  "meaning": "A tighter upper bound on the per-site entropy of perfect matchings of the cubic lattice.",
+  "source_url": "https://arxiv.org/abs/2607.28810",
+  "artifact_description": "Positive integer vectors satisfying the transfer-operator inequalities. The final logarithm is evaluated numerically.",
+  "artifacts": [
+    {
+      "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+      "file": "dimer/c55.cert",
+      "bytes": 1653318,
+      "sha256": "87c07849fd1533935a0e160ff75f59bc4c258389905d24808faa61579cee8c49"
+    }
+  ]
+}

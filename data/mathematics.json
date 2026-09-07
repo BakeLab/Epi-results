@@ -1,0 +1,320 @@
+[
+  {
+    "id": "klarner",
+    "title": "Klarner’s constant",
+    "reference": "4.5238",
+    "result": "4.405 = 881/200",
+    "meaning": "An upper bound on the exponential growth rate of the number of polyominoes.",
+    "source_url": "https://arxiv.org/abs/2511.00461",
+    "artifact_description": "321 rational inequalities and their supersolution at z = 200/881.",
+    "artifacts": [
+      {
+        "file": "certificate.json"
+      },
+      {
+        "file": "patterns.txt"
+      },
+      {
+        "file": "rules.txt"
+      }
+    ]
+  },
+  {
+    "id": "grothendieck",
+    "title": "Grothendieck constant of order four",
+    "reference": "1.782213… (inherited global bound)",
+    "result": "1.681221823",
+    "meaning": "A dedicated upper bound for K_G(4).",
+    "source_url": "https://arxiv.org/abs/2302.04721",
+    "artifact_description": "A rational local model on four-dimensional measurement directions, with the two shrinking-factor values.",
+    "artifacts": [
+      {
+        "file": "eta_N.txt"
+      },
+      {
+        "file": "eta_clo.txt"
+      },
+      {
+        "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+        "file": "grothendieck/local-model.npz",
+        "bytes": 4190786,
+        "sha256": "2c2afd11047eb7c3c3ddd2437c140b850dac99b81585323406e853633e058da6"
+      }
+    ]
+  },
+  {
+    "id": "wellens",
+    "title": "Wellens’ Boolean-function bound",
+    "reference": "4.3935",
+    "result": "4.3654674227",
+    "meaning": "An upper bound on D∞, which controls the number of relevant variables of Boolean functions relative to their degree.",
+    "source_url": "https://arxiv.org/abs/2005.00566",
+    "artifact_description": "One exact infeasibility certificate and one rational feasibility witness for each degree from 1 to 48.",
+    "artifacts": [
+      {
+        "file": "bounds.json"
+      },
+      {
+        "file": "feasibility.json"
+      }
+    ]
+  },
+  {
+    "id": "turan-tetrahedron",
+    "title": "Turán density of the tetrahedron",
+    "reference": "0.5615",
+    "result": "2351947/4194304 ≈ 0.560747861862",
+    "meaning": "An upper bound on the maximum asymptotic edge density of a 3-uniform hypergraph containing no tetrahedron.",
+    "source_url": "https://arxiv.org/abs/1201.3587",
+    "artifact_description": "The rounded flag-algebra certificate contains 18 rational positive-semidefinite blocks and 32 multipliers. The PSD blocks and multiplier signs were checked; the full flag-algebra identity remains unchecked.",
+    "artifacts": [
+      {
+        "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+        "file": "turan-tetrahedron/certificate.pickle",
+        "bytes": 14033159,
+        "sha256": "400e1f1a463c673658524d29b2cc5106f964b96eaa1a1b78929b45247ff5a007"
+      }
+    ]
+  },
+  {
+    "id": "cap-body-illumination",
+    "title": "Cap-body illumination",
+    "reference": "103, 157, 236, 353, 520, 769, 1127",
+    "result": "102, 154, 233, 347, 514, 757, 1110",
+    "meaning": "Seven improved upper bounds on illumination numbers, in dimensions 9 through 15 respectively.",
+    "source_url": "https://arxiv.org/abs/2510.25968",
+    "artifact_description": "The final discretized coefficients for each dimension. The dual inequalities hold in rational arithmetic for these coefficients.",
+    "artifacts": [
+      {
+        "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+        "file": "cap-body-illumination/coefficients-d10.json",
+        "bytes": 2621012,
+        "sha256": "89982cfa4d95569b429f601db2959f72d5783d649003a415f6300edb875e3029"
+      },
+      {
+        "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+        "file": "cap-body-illumination/coefficients-d11.json",
+        "bytes": 329135,
+        "sha256": "3a371191a4a224b89a4a614afbfb04c00dd7f802df383f79b9c07c2f05228b70"
+      },
+      {
+        "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+        "file": "cap-body-illumination/coefficients-d12.json",
+        "bytes": 660905,
+        "sha256": "732fd93783dbdf6754d9f38e0f8a81c12dc3d12c8901861c507138e4637fe8cf"
+      },
+      {
+        "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+        "file": "cap-body-illumination/coefficients-d13.json",
+        "bytes": 1322841,
+        "sha256": "fdfbaefc15b33184865ae0cf7c257c50677e5b63d525ade08745dbf70f95942b"
+      },
+      {
+        "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+        "file": "cap-body-illumination/coefficients-d14.json",
+        "bytes": 1339448,
+        "sha256": "40eeca90a9d961b838c93dee497513de6573d2ff9f0c6c4fb1433e87bc394a14"
+      },
+      {
+        "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+        "file": "cap-body-illumination/coefficients-d15.json",
+        "bytes": 6896961,
+        "sha256": "6c4db60d661f1a38b35e9044ee311896209b0ece550d5e66fd3d3fcc542f35b1"
+      },
+      {
+        "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+        "file": "cap-body-illumination/coefficients-d9.json",
+        "bytes": 161494,
+        "sha256": "814ce1d31d21ac7c8600a6fc139420e4bcebac79a59a0debd2d1c8681b92332e"
+      }
+    ]
+  },
+  {
+    "id": "cohn-elkies",
+    "title": "Cohn–Elkies linear-programming bounds",
+    "reference": "1/20, 1/24, 1/24, 1/24, 1/28",
+    "result": "≈ 0.057375415, 0.056433847, 0.057731802, 0.058740866, 0.063876952",
+    "meaning": "Improved lower bounds on the best upper bound attainable by the Cohn–Elkies method, in dimensions 9 through 13.",
+    "source_url": "https://arxiv.org/abs/2206.09876",
+    "artifact_description": "One final dual vector for each dimension, with exact bound values. Values use center-density normalization.",
+    "artifacts": [
+      {
+        "file": "bound-d10.json"
+      },
+      {
+        "file": "bound-d11.json"
+      },
+      {
+        "file": "bound-d12.json"
+      },
+      {
+        "file": "bound-d13.json"
+      },
+      {
+        "file": "bound-d9.json"
+      },
+      {
+        "file": "mu/Mu_10_10_sqrt20.txt"
+      },
+      {
+        "file": "mu/Mu_11_10_sqrt20.txt"
+      },
+      {
+        "file": "mu/Mu_12_8_4.txt"
+      },
+      {
+        "file": "mu/Mu_13_8_4.txt"
+      },
+      {
+        "file": "mu/Mu_9_10_sqrt20.txt"
+      }
+    ]
+  },
+  {
+    "id": "spencer-discrepancy",
+    "title": "Spencer discrepancy constant",
+    "reference": "7/√17 ≈ 1.697749",
+    "result": "5/√8 ≈ 1.767767",
+    "meaning": "A stronger lower bound on the smallest universal constant in the square-matrix discrepancy problem.",
+    "source_url": "https://teorth.github.io/optimizationproblems/constants/10c.html",
+    "artifact_description": "An explicit 8 × 8 matrix with discrepancy five over its 256 sign assignments.",
+    "artifacts": [
+      {
+        "file": "matrix.json"
+      }
+    ]
+  },
+  {
+    "id": "dimer",
+    "title": "Dimer entropy in three dimensions",
+    "reference": "upper bound 0.452130",
+    "result": "upper bound 0.452009597554483",
+    "meaning": "A tighter upper bound on the per-site entropy of perfect matchings of the cubic lattice.",
+    "source_url": "https://arxiv.org/abs/2607.28810",
+    "artifact_description": "Positive integer vectors satisfying the transfer-operator inequalities. The final logarithm is evaluated numerically.",
+    "artifacts": [
+      {
+        "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+        "file": "dimer/c55.cert",
+        "bytes": 1653318,
+        "sha256": "87c07849fd1533935a0e160ff75f59bc4c258389905d24808faa61579cee8c49"
+      }
+    ]
+  },
+  {
+    "id": "nqueens",
+    "title": "The n-queens constant",
+    "reference": "[1.944000752, 1.944001082]",
+    "result": "[1.9440010215426898890, 1.944001037277282194256]",
+    "meaning": "An interval for the constant α in the asymptotic count of n-queens configurations, narrowed by approximately 21×.",
+    "source_url": "https://web.stanford.edu/~boyd/papers/n_queens.html",
+    "artifact_description": "The lower witness has n = 32,768 and the upper witness has n = 2,048. The bounds use rational feasibility checks and directed rounding.",
+    "artifacts": [
+      {
+        "archive": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip",
+        "file": "nqueens/lower-n32768.npz",
+        "bytes": 1573112,
+        "sha256": "038bf2313680500116397de8c06332b2793c10f2f07b0a17a1607f0afce40f15"
+      },
+      {
+        "file": "upper-n2048.npz",
+        "url": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/upper-n2048.npz",
+        "bytes": 114158953,
+        "sha256": "cbc58e38224a63adc07928b53c85a36366c03a18e31a6668f2113d1da32043c5"
+      }
+    ]
+  },
+  {
+    "id": "ramsey-c5",
+    "title": "Ramsey multiplicity c₅",
+    "reference": "2320651/(2²⁴·3⁴)",
+    "result": "586467361/(2³²·3⁴)",
+    "meaning": "A smaller upper bound on the limiting density of monochromatic cliques in two-colorings.",
+    "source_url": "https://arxiv.org/abs/2206.04036",
+    "artifact_description": "The final graph on 768 vertices, in graph6 format and as a generating set.",
+    "artifacts": [
+      {
+        "file": "construction.graph6"
+      },
+      {
+        "file": "generators.txt"
+      }
+    ]
+  },
+  {
+    "id": "ramsey-c45",
+    "title": "Ramsey multiplicity c₄,₅",
+    "reference": "2129191/2²⁸",
+    "result": "1081216445/2³⁷",
+    "meaning": "A smaller upper bound on the limiting density of monochromatic cliques in two-colorings.",
+    "source_url": "https://arxiv.org/abs/2206.04036",
+    "artifact_description": "The final graph on 1024 vertices, in graph6 format and as a generating set.",
+    "artifacts": [
+      {
+        "file": "construction.graph6"
+      },
+      {
+        "file": "generators.txt"
+      }
+    ]
+  },
+  {
+    "id": "max4cut",
+    "title": "MAX-4-CUT hardness ratio",
+    "reference": "195581/198140 ≈ 0.9870848895",
+    "result": "6529501/6618824 ≈ 0.9865047023",
+    "meaning": "An improved gadget-based NP-hardness threshold for approximating MAX-4-CUT.",
+    "source_url": "https://arxiv.org/abs/2509.18057",
+    "artifact_description": "The integer weighted edge list giving the exact ratio 6529501/6618824.",
+    "artifacts": [
+      {
+        "file": "gadget.txt"
+      }
+    ]
+  },
+  {
+    "id": "bhg",
+    "title": "Timmons’ Bₕ[g] constants",
+    "reference": "14.295, 71.489, 413.046, 2774.14, 21294.6",
+    "result": "≈ 14.287456, 70.289945, 408.107011, 2749.511553, 21149.342141",
+    "meaning": "Improved upper-bound coefficients for generalized Sidon sets, for h = 3, 4, 5, 6, 7.",
+    "source_url": "https://arxiv.org/abs/1604.00661",
+    "artifact_description": "The final degree-400 cosine-polynomial coefficients for h = 3, 4, 5, 6, 7. The reported values use floating-point evaluation with an interpolation margin.",
+    "artifacts": [
+      {
+        "file": "polynomials.json"
+      }
+    ]
+  },
+  {
+    "id": "feigenbaum",
+    "title": "Quartic Feigenbaum attractor",
+    "reference": "[0.6395131468772886, 0.6473156929016111]",
+    "result": "0.6425750648687785366211294405358324482526899233599841409380665852517043047545 ± 10⁻⁷⁵",
+    "meaning": "A high-precision numerical enclosure for the Hausdorff dimension of the attractor with a quartic critical point.",
+    "source_url": "https://arxiv.org/abs/2102.11239",
+    "artifact_description": "The final fixed-point coefficients. The reported enclosure is a high-precision numerical result, without an interval-certified fixed point.",
+    "artifacts": [
+      {
+        "file": "fixed-point.json"
+      }
+    ]
+  },
+  {
+    "id": "quantum-capacity",
+    "title": "Quantum capacity: X-Z and 2-Pauli channels",
+    "reference": "0.11837113922723974; 0.1180672806619063",
+    "result": "checked noise rates 0.11953371; 0.11928637",
+    "meaning": "Higher noise rates at which the supplied quantum states have positive coherent information.",
+    "source_url": "https://arxiv.org/abs/2605.09138",
+    "artifact_description": "The final state amplitudes for 37 X-Z channel uses and 35 two-Pauli channel uses. At the reported noise rates, extended-precision numerical evaluations give positive coherent-information margins of 1.66 × 10⁻⁹ and 3.26 × 10⁻⁹.",
+    "artifacts": [
+      {
+        "file": "two-pauli-n35.json"
+      },
+      {
+        "file": "xz-n37.json"
+      }
+    ]
+  }
+]
