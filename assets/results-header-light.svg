@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="336" viewBox="0 0 1200 336" role="img" aria-labelledby="title desc">
+<title id="title">Épi Results · Bake AI</title><desc id="desc">Constructions, bounds and proofs from autonomous research.</desc>
+<rect x="1" y="1" width="1198" height="334" rx="20" fill="#FAF9F5" stroke="#E7E0D1"/>
+<path d="M54 62H81" stroke="#BE913D" stroke-width="3"/>
+<text x="96" y="68" font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size="18" font-weight="600" letter-spacing="3" fill="#6F7067">BAKE AI / RESEARCH</text>
+<text x="50" y="183" font-family="Georgia,Times New Roman,serif" font-size="88" letter-spacing="-3" fill="#292A24">Épi Results</text>
+<text x="55" y="233" font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size="26" fill="#6F7067">Constructions, bounds and proofs.</text>
+<path d="M55 276H1145" stroke="#E7E0D1"/>
+<text x="55" y="309" font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size="17" letter-spacing="1" fill="#6F7067">FINAL ARTIFACTS · OPEN FOR INSPECTION</text>
+<g transform="translate(850 96) scale(.4)"><defs><clipPath id="v4-final-shell"><rect x="3.75" y="3.75" width="712.5" height="352.5" rx="1"/></clipPath></defs>
+<g clip-path="url(#v4-final-shell)">
+<rect width="360" height="360" fill="#BE913D"/>
+<rect x="360" width="360" height="360" fill="#FAF9F5"/>
+<g id="v4-final-wheat" fill="#FAF9F5" transform="translate(18.195 28.45875) scale(2.415)">
+<g transform="rotate(24 64 64)"><path d="M64 37C65.657 37 67 38.343 67 40V114C67 115.657 65.657 117 64 117C62.343 117 61 115.657 61 114V40C61 38.343 62.343 37 64 37Z"/>
+<path d="M64 8C77 19 77 31 64 42C51 31 51 19 64 8Z"/>
+<path d="M34 29C49 30 58 39 58 55C43 54 34 45 34 29Z"/>
+<path d="M94 29C79 30 70 39 70 55C85 54 94 45 94 29Z"/>
+<path d="M34 53C49 54 58 63 58 79C43 78 34 69 34 53Z"/>
+<path d="M94 53C79 54 70 63 70 79C85 78 94 69 94 53Z"/>
+<path d="M34 77C49 78 58 87 58 103C43 102 34 93 34 77Z"/>
+<path d="M94 77C79 78 70 87 70 103C85 102 94 93 94 77Z"/></g>
+</g>
+<g id="v4-final-math" fill="#BE913D" transform="translate(392.8 60.4) scale(1.84)">
+<g transform="translate(6 8)"><path fill-rule="evenodd" d="M65 71H24C25 85 32 93 44 93C51 93 57 90 62 86V97C56 101 50 103 43 103C23 103 11 89 11 69C11 49 23 35 41 35C57 35 67 48 67 65V71ZM24 61H55C54 51 49 45 41 45C32 45 26 51 24 61Z"/>
+<path d="M75 36H137V47H125V84C125 92 128 96 135 94V104C120 106 113 100 113 86V47H94V74C94 88 92 97 89 103H77C81 93 82 84 82 74V47H75Z"/>
+<path d="M34 24C37 15 45 9 55 9C52 18 44 24 34 24Z"/></g>
+</g>
+</g>
+<rect x="3.75" y="3.75" width="712.5" height="352.5" rx="1" fill="none" stroke="#B88B37" stroke-width="7.5"/>
+</g>
+</svg>

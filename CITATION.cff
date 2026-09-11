@@ -4,7 +4,7 @@ type: dataset
 title: "Épi Results"
 authors:
   - name: "Epi Team"
-version: 1.0.0
-date-released: 2026-09-06
-url: "https://github.com/HowieHwong/Epi-results"
-repository-code: "https://github.com/HowieHwong/Epi-results"
+version: 1.1.0
+date-released: 2026-09-11
+url: "https://github.com/BakeLab/Epi-results"
+repository-code: "https://github.com/BakeLab/Epi-results"
