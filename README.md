@@ -1,52 +1,76 @@
-<p align="center"><img src="assets/epi-logo.svg" width="176" alt="Épi logo"></p>
-<h1 align="center">Épi Results</h1>
-<p align="center">Final constructions, sharper bounds and mathematical proofs.</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/results-header-dark.svg">
+  <img src="assets/results-header-light.svg" width="100%" alt="Épi Results · Bake AI. Constructions, bounds and proofs.">
+</picture>
+
 <p align="center">
-  <a href="mathematics">Mathematics</a> ·
-  <a href="#constructions">Constructions</a> ·
-  <a href="#downloads">Downloads</a> ·
-  <a href="#citation">Citation</a> ·
-  <a href="https://bakeai.inc/research/articles/introducing-epi/">Introducing Épi</a>
+  <a href="#selected-results">Selected results</a> &nbsp; / &nbsp;
+  <a href="#constructions">Constructions</a> &nbsp; / &nbsp;
+  <a href="#downloads">Downloads</a> &nbsp; / &nbsp;
+  <a href="#citation">Cite</a> &nbsp; / &nbsp;
+  <a href="https://bakeai.inc/research/articles/introducing-epi/">Introducing Épi ↗</a>
 </p>
 
-Épi is Bake AI’s autonomous research harness. This repository contains its final research artifacts: **20 numerical bound records, one theorem extension and 106 released constructions**. Every result has a comparison source and a description of what was verified.
+Épi is Bake AI’s autonomous research harness. This collection brings together its mathematical results and the artifacts behind them: explicit constructions, numerical witnesses and proofs.
 
-Comparisons were reviewed on **2026-09-11**. Construction standings distinguish improvements over current registries, already listed records, matching values and superseded results.
+<table>
+<tr>
+<td width="280" align="center" valign="top"><h2>20</h2>Numerical bound<br>records<br><br></td>
+<td width="280" align="center" valign="top"><h2>1</h2>Theorem<br>extension<br><br></td>
+<td width="280" align="center" valign="top"><h2>106</h2>Released<br>constructions<br><br></td>
+</tr>
+</table>
 
 ## Selected results
 
-| Problem | Published comparison | Épi | Final artifact |
+| Problem | Previous result | Épi | Explore |
 | :-- | :-- | :-- | :-- |
-| **Polyomino growth** | Upper bound 4.5238 | **4.29569** | [Exact recurrence certificate](mathematics/klarner) |
-| **n-queens constant** | Interval width 3.30 × 10⁻⁷ | **3.9367 × 10⁻⁹**, about 84× narrower | [Lower and upper witnesses](mathematics/nqueens) |
-| **Tuza’s inequality** | K₈ split graphs with at most two active neighborhood types | **At most three types, with arbitrary multiplicities** | [Proof and independent checker](mathematics/tuza) |
-| **Water-network design** | MINLPLib lower bound 655.5441707 | **662.80702839** | [Global lower-bound certificate](mathematics/waterund36) |
+| **Polyomino growth** | ≤ 4.5238 | **≤ 4.29569** | [Exact recurrence certificate](mathematics/klarner) |
+| **n-queens constant** | Interval width 3.30 × 10⁻⁷ | **3.9367 × 10⁻⁹**, about 84× narrower | [Both endpoint witnesses](mathematics/nqueens) |
+| **Water-network design** | Global lower bound 655.5441707 | **≥ 662.80702839** | [Proof bundle](mathematics/waterund36) |
 | **Cohn–Elkies method** | Sharpness unresolved in dimensions 10 and 11 | **Non-sharp in both dimensions** | [Exact dual certificates](mathematics/cohn-elkies) |
-| **34 pentagons in a triangle** | Triangle side 12.98141 | **12.97563735803487** | [Complete arrangement](records/pentagons/penintri_n34) |
-| **Vehicle routing, XL-n1048-k237** | Route length 380107 | **380092** | [All 238 routes](records/vehicle-routing/cvrp_xl_n1048_k237) |
 
-## Mathematics
+### A theorem extension: Tuza’s inequality
 
-| Area | Final results |
+Épi proved **τ△(G) ≤ 2ν△(G)** for a larger class of split graphs. The clique part has eight vertices; vertices in the independent part with at least two clique neighbors may now have **three distinct neighborhoods**, up from two. Each type can occur arbitrarily many times.
+
+The proof combines a reduction with exact triangle covers and packings. The release includes the argument, its certificate and an independent checker.
+
+[Read the proof](mathematics/tuza/PROOF.md) &nbsp; · &nbsp; [Inspect the certificate](mathematics/tuza) &nbsp; · &nbsp; [Run the checker](mathematics/tuza/verify.py)
+
+<details>
+<summary><strong>Explore all mathematical results</strong></summary>
+
+| Area | Results |
 | :-- | :-- |
-| **Growth and entropy** | [Klarner’s constant](mathematics/klarner), [dimer constant](mathematics/dimer), [n-queens asymptotics](mathematics/nqueens) |
-| **Combinatorics** | [Wellens’ bound](mathematics/wellens), [Spencer discrepancy](mathematics/spencer-discrepancy), [Ramsey c₄,₅](mathematics/ramsey-c45), [Bₕ[g] coefficients](mathematics/bhg), [Tuza’s inequality](mathematics/tuza) |
-| **Geometry and dynamics** | [Cohn–Elkies bounds](mathematics/cohn-elkies), [quartic Feigenbaum dimension](mathematics/feigenbaum) |
-| **Optimization and information** | [MAX-4-CUT hardness](mathematics/max4cut), [water-network lower bound](mathematics/waterund36), [quantum-capacity thresholds](mathematics/quantum-capacity) |
+| **Growth and entropy** | [Klarner’s constant](mathematics/klarner) · [Dimer constant](mathematics/dimer) · [n-queens asymptotics](mathematics/nqueens) |
+| **Combinatorics** | [Wellens’ bound](mathematics/wellens) · [Spencer discrepancy](mathematics/spencer-discrepancy) · [Ramsey c₄,₅](mathematics/ramsey-c45) · [Bₕ[g] coefficients](mathematics/bhg) · [Tuza’s inequality](mathematics/tuza) |
+| **Geometry and dynamics** | [Cohn–Elkies bounds](mathematics/cohn-elkies) · [Quartic Feigenbaum dimension](mathematics/feigenbaum) |
+| **Optimization and information** | [MAX-4-CUT hardness](mathematics/max4cut) · [Water-network lower bound](mathematics/waterund36) · [Quantum-capacity thresholds](mathematics/quantum-capacity) |
 
-The [mathematical result table](mathematics/README.md) gives every value. Interval endpoints and decimal bounds are rounded outward. Tuza is a theorem extension for the stated graph class; waterund36 improves the global lower bound while retaining the known feasible upper value.
+[Full table of values and sources →](mathematics/README.md)
+
+</details>
 
 ## Constructions
 
-The 106 final constructions have the following current standings:
+<table>
+<tr>
+<td width="33%" align="center"><a href="records/pentagons/penintri_n34"><img src="assets/packing-pentagons.svg" width="100%" alt="The released arrangement of 34 regular pentagons in an equilateral triangle."></a></td>
+<td width="33%" align="center"><a href="records/circular-quadrant/pack_ccq_n87"><img src="assets/packing-quadrant.svg" width="100%" alt="The released packing of 87 equal circles in a quarter disk."></a></td>
+<td width="33%" align="center"><a href="records/semicircle/pack_csc_n74"><img src="assets/packing-semicircle.svg" width="100%" alt="The released packing of 74 equal circles in a half disk."></a></td>
+</tr>
+<tr>
+<td align="center"><strong>34</strong><br>pentagons<br><a href="records/pentagons/penintri_n34">Triangle</a></td>
+<td align="center"><strong>87</strong><br>circles<br><a href="records/circular-quadrant/pack_ccq_n87">Quadrant</a></td>
+<td align="center"><strong>74</strong><br>circles<br><a href="records/semicircle/pack_csc_n74">Semicircle</a></td>
+</tr>
+</table>
 
-| Standing | Entries |
-| :-- | --: |
-| Improve the reviewed registry | **89** |
-| Already listed records | **11** |
-| Match the current registry precision | **1** |
-| Have been superseded | **3** |
-| Improve a named benchmark reference | **2** |
+The figures are drawn from the released coordinates. Open a construction to see its value, comparison source and verification details.
+
+<details>
+<summary><strong>Browse all 106 constructions across 10 categories</strong></summary>
 
 | Category | Entries | Objective |
 | :-- | --: | :-- |
@@ -61,16 +85,35 @@ The 106 final constructions have the following current standings:
 | [Third autocorrelation inequality](records/autocorrelation) | 1 | Smaller signed-convolution objective |
 | [Zhang–Zagier essential minimum](records/zhang-zagier) | 1 | Smaller certified upper bound |
 
-The nine pentagon constructions are listed by Friedman, credited to **Yue Huang**. CVRPLIB lists the vehicle-routing value; EinsteinArena lists the autocorrelation result under **Poolish**, the project’s former name. Semicircle N = 159, 205 and 244 have been surpassed; N = 202 matches the latest published precision. Every entry retains its final construction and current comparison.
+</details>
+
+<details>
+<summary><strong>Record standings and attribution</strong></summary>
+
+| Current standing | Entries |
+| :-- | --: |
+| Improve the reviewed registry | **89** |
+| Already listed records | **11** |
+| Match the current registry precision | **1** |
+| Have been superseded | **3** |
+| Improve a named benchmark reference | **2** |
+
+Friedman lists the nine pentagon constructions, credited to **Yue Huang**. CVRPLIB lists the vehicle-routing value; EinsteinArena lists the autocorrelation result under **Poolish**, the project’s former name.
+
+Semicircle N = 159, 205 and 244 have been surpassed; N = 202 matches the latest published precision. Their final constructions remain available with their current standings.
+
+</details>
 
 ## Downloads
 
-- **[Construction index · CSV](data/records.csv)** / [JSON](data/records.json)
-- **[Mathematical results · JSON](data/mathematics.json)**
-- **[Final certificate downloads](https://github.com/HowieHwong/Epi-results/releases/tag/v1.1.0)**, including the large n-queens upper witness and water-network proof bundle
-- **[Download sizes and checksums](data/downloads.json)** · [Repository file manifest](checksums.sha256)
+| Collection | Files |
+| :-- | :-- |
+| **Constructions** | [CSV index](data/records.csv) · [JSON index](data/records.json) |
+| **Mathematical results** | [Result pages](mathematics) · [JSON index](data/mathematics.json) |
+| **Large certificates** | [Release v1.1.0](https://github.com/BakeLab/Epi-results/releases/tag/v1.1.0) |
+| **File verification** | [Download sizes and SHA-256](data/downloads.json) · [Repository checksums](checksums.sha256) |
 
-Small final witnesses are stored beside their result pages. Larger files are separate Release assets, so cloning the repository stays lightweight. The collection contains final research artifacts and proof materials only.
+Small witnesses live alongside their result pages. The larger certificates are Release downloads, including the n-queens upper witness and water-network proof bundle, keeping the repository lightweight.
 
 ## Citation
 
@@ -80,12 +123,16 @@ Small final witnesses are stored beside their result pages. Larger files are sep
   title        = {{\'E}pi Results},
   year         = {2026},
   howpublished = {GitHub},
-  url          = {https://github.com/HowieHwong/Epi-results}
+  url          = {https://github.com/BakeLab/Epi-results}
 }
 ```
 
-Each result page cites the research it builds on. Comparisons may become outdated; please [contact us](https://bakeai.inc/contact/) if you know a stronger result.
+<sub>Comparisons last reviewed on September 11, 2026. If you know a stronger result, please [contact us](https://bakeai.inc/contact/).</sub>
 
 ---
 
-<p align="center"><strong>Bake AI · Épi</strong></p>
+<p align="center">
+  <img src="assets/epi-logo.svg" width="72" alt="Épi"><br>
+  <strong>Bake AI · Épi</strong><br>
+  <a href="https://bakeai.inc/research/articles/introducing-epi/">Read the research story ↗</a>
+</p>
