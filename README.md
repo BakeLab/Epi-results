@@ -23,7 +23,7 @@
 
 ## Selected results
 
-| Problem | Previous bound | Épi | Explore |
+| Problem | Previous result | Épi | Explore |
 | :-- | :-- | :-- | :-- |
 | **Polyomino growth** | ≤ 4.5238 | **≤ 4.29569** | [Exact recurrence certificate](mathematics/klarner) |
 | **n-queens constant** | Interval width 3.30 × 10⁻⁷ | **3.9367 × 10⁻⁹**, about 84× narrower | [Both endpoint witnesses](mathematics/nqueens) |
@@ -61,9 +61,9 @@ The proof combines a reduction with exact triangle covers and packings. The rele
 <td width="33%" align="center"><a href="records/semicircle/pack_csc_n74"><img src="assets/packing-semicircle.svg" width="100%" alt="The released packing of 74 equal circles in a half disk."></a></td>
 </tr>
 <tr>
-<td align="center"><strong>34 pentagons</strong><br><a href="records/pentagons/penintri_n34">In a triangle ↗</a></td>
-<td align="center"><strong>87 circles</strong><br><a href="records/circular-quadrant/pack_ccq_n87">In a quadrant ↗</a></td>
-<td align="center"><strong>74 circles</strong><br><a href="records/semicircle/pack_csc_n74">In a semicircle ↗</a></td>
+<td align="center"><strong>34</strong><br>pentagons<br><a href="records/pentagons/penintri_n34">Triangle</a></td>
+<td align="center"><strong>87</strong><br>circles<br><a href="records/circular-quadrant/pack_ccq_n87">Quadrant</a></td>
+<td align="center"><strong>74</strong><br>circles<br><a href="records/semicircle/pack_csc_n74">Semicircle</a></td>
 </tr>
 </table>
 
