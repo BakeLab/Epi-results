@@ -2,11 +2,11 @@
 <title id="title">Épi Results · Bake AI</title><desc id="desc">Constructions, bounds and proofs from autonomous research.</desc>
 <rect x="1" y="1" width="1198" height="334" rx="20" fill="#20231F" stroke="#45483E"/>
 <path d="M54 62H81" stroke="#BE913D" stroke-width="3"/>
-<text x="96" y="68" font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size="18" font-weight="600" letter-spacing="3" fill="#B2B5A8">BAKE AI / RESEARCH</text>
-<text x="50" y="183" font-family="Georgia,Times New Roman,serif" font-size="88" letter-spacing="-3" fill="#F4F1E8">Épi Results</text>
-<text x="55" y="233" font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size="26" fill="#B2B5A8">Constructions, bounds and proofs.</text>
+<text x="96" y="68" font-family='Avenir Next,Avenir,Segoe UI,Helvetica,Arial,sans-serif' font-size="18" font-weight="600" letter-spacing="3" fill="#B2B5A8">BAKE AI / RESEARCH</text>
+<text x="52" y="183" font-family="Avenir Next,Avenir,Segoe UI,Helvetica,Arial,sans-serif" font-size="84" font-weight="600" letter-spacing="-3" fill="#F4F1E8">Épi Results</text>
+<text x="55" y="233" font-family='Avenir Next,Avenir,Segoe UI,Helvetica,Arial,sans-serif' font-size="26" fill="#B2B5A8">Constructions, bounds and proofs.</text>
 <path d="M55 276H1145" stroke="#45483E"/>
-<text x="55" y="309" font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size="17" letter-spacing="1" fill="#B2B5A8">FINAL ARTIFACTS · OPEN FOR INSPECTION</text>
+<text x="55" y="309" font-family='Avenir Next,Avenir,Segoe UI,Helvetica,Arial,sans-serif' font-size="17" letter-spacing="1" fill="#B2B5A8">FINAL ARTIFACTS · OPEN FOR INSPECTION</text>
 <g transform="translate(850 96) scale(.4)"><defs><clipPath id="v4-final-shell"><rect x="3.75" y="3.75" width="712.5" height="352.5" rx="1"/></clipPath></defs>
 <g clip-path="url(#v4-final-shell)">
 <rect width="360" height="360" fill="#BE913D"/>
