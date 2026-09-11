@@ -1,9 +1,11 @@
-# Vehicle routing: cvrp_xl_n1048_k237
+# Capacitated vehicle routing: XL-n1048-k237
 
-Minimize total route length while serving every customer within vehicle capacity.
+| Previous comparison | Current source | Épi | Standing |
+| :-- | :-- | :-- | :-- |
+| 380107 | 380092 | **380092** | Listed record |
 
-| Reference | Épi | Direction |
-| :-- | :-- | :-- |
-| 380107 | **380092** | Lower is better |
+Minimize total rounded Euclidean route length, subject to vehicle capacity.
 
-[Construction](construction.json) · [Full-precision result](result.json) · [Source](https://galgos.inf.puc-rio.br/cvrplib/index.php/en/instances)
+All 1,047 customers visited once; exact capacity and rounded-distance checks; 238 feasible routes.
+
+[Final construction](construction.json) · [Result data](result.json) · [Comparison source](https://galgos.inf.puc-rio.br/cvrplib/index.php/en/plots/280)

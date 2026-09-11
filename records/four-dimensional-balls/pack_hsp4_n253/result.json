@@ -1,18 +1,21 @@
 {
   "id": "pack_hsp4_n253",
   "category": "four-dimensional-balls",
-  "title": "Packomania hsp4, N = 253: equal 4d hyperspheres in a larger 4d hypersphere, maximise the common",
+  "title": "Balls in four dimensions: N = 253",
   "direction": "max",
-  "baseline": 0.196090977289,
   "result": 0.19609373244103998,
-  "improvement": 2.7551520399848872e-06,
-  "source_url": "https://packomania.com/hsp4/txt/hsp4-253.txt",
+  "source_url": "https://packomania.com/hsp4/hsp4.html",
   "source": "Eckard Specht, Packomania",
-  "cohort": "announcement",
   "construction": "records/four-dimensional-balls/pack_hsp4_n253/construction.json",
   "parameters": {
     "container": "ball",
     "dim": 4,
     "n_objects": 253
-  }
+  },
+  "previous_comparison": 0.196090977289,
+  "current_reference": "0.196090977289",
+  "status": "improves_registry",
+  "reviewed_on": "2026-09-11",
+  "verification": "All pair distances and container boundaries; float64",
+  "artifact_sha256": "7ca5b4cb473a48e0abe309b6e425589f9e965760388f18f439bd201fef47a784"
 }

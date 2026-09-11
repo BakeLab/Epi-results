@@ -1,15 +1,25 @@
-# Timmons’ Bₕ[g] constants
+# Bₕ[g] upper-bound coefficients
 
-Improved upper-bound coefficients for generalized Sidon sets, for h = 3, 4, 5, 6, 7.
+| Quantity | Published comparison | Épi |
+| :-- | :-- | :-- |
+| Bₕ[g] coefficient, h = 3 | 14.3 | **14.287390218082** |
+| Bₕ[g] coefficient, h = 4 | 71.49 | **70.289552594834** |
+| Bₕ[g] coefficient, h = 5 | 413.07 | **408.104453996958** |
+| Bₕ[g] coefficient, h = 6 | 2774.16 | **2749.492485514635** |
+| Bₕ[g] coefficient, h = 7 | 21294.74 | **21149.189776156220** |
 
-| Reference | Épi |
-| :-- | :-- |
-| 14.295, 71.489, 413.046, 2774.14, 21294.6 | **≈ 14.287456, 70.289945, 408.107011, 2749.511553, 21149.342141** |
+For g ≥ 2, these coefficients give |A| ≤ (1 + o(1))(CₕgN)¹/ʰ for Bₕ[g]-sets A ⊆ [N]. Each bound follows from an interval-certified kernel minimum. The previous and new kernels were compared with the same evaluator.
 
 ## Final artifacts
 
-The final degree-400 cosine-polynomial coefficients for h = 3, 4, 5, 6, 7. The reported values use floating-point evaluation with an interpolation margin.
+- [kernel-h3.json](kernel-h3.json)
+- [kernel-h4.json](kernel-h4.json)
+- [kernel-h5.json](kernel-h5.json)
+- [kernel-h6.json](kernel-h6.json)
+- [kernel-h7.json](kernel-h7.json)
 
-- [polynomials.json](polynomials.json)
+## Sources
 
-[Research source](https://arxiv.org/abs/1604.00661) · [Result data](result.json) · [All mathematical results](../README.md)
+- [Upper bounds for Bₕ[g]-sets with small h](https://arxiv.org/abs/1604.00661)
+
+[Result data](result.json) · [All mathematical results](../README.md)

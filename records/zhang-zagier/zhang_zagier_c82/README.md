@@ -1,9 +1,11 @@
-# Zhang–Zagier height: zhang_zagier_c82
+# Zhang–Zagier essential minimum: Zhang–Zagier essential minimum C₈₂
 
-Lower the certified upper bound on the essential minimum C₈₂.
+| Previous comparison | Current source | Épi | Standing |
+| :-- | :-- | :-- | :-- |
+| 0.2536331090204145 | 0.2536331090204145 | **0.2535744749068227** | Improves registry |
 
-| Reference | Épi | Direction |
-| :-- | :-- | :-- |
-| 0.253633109020415 | **0.253574474906823** | Lower is better |
+Minimize a certified upper bound on the essential minimum C₈₂.
 
-[Construction](construction.json) · [Full-precision result](result.json) · [Source](https://github.com/maaxgrin/zhang-zagier-c82-bound)
+120-bit Arb integral certificate, with exact coprimality, rational-weight and degree checks. All 262,144 integration panels verified; the displayed upper bound is rounded outward.
+
+[Final construction](construction.json) · [Result data](result.json) · [Comparison source](https://github.com/teorth/optimizationproblems/blob/main/constants/82a.md)

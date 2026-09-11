@@ -1,16 +1,19 @@
 # Wellens’ Boolean-function bound
 
-An upper bound on D∞, which controls the number of relevant variables of Boolean functions relative to their degree.
+| Quantity | Published comparison | Épi |
+| :-- | :-- | :-- |
+| Wellens’ D∞ | 4.3935 | **4.3654674227** |
 
-| Reference | Épi |
-| :-- | :-- |
-| 4.3935 | **4.3654674227** |
+D∞ in Wellens’ Boolean-function inequality; n(f) ≤ D∞ · 2^deg(f).
+
+Exact rational feasibility and infeasibility certificates, followed by the degree recurrence and tail bound.
 
 ## Final artifacts
 
-One exact infeasibility certificate and one rational feasibility witness for each degree from 1 to 48.
+- [certificate.json](certificate.json)
 
-- [bounds.json](bounds.json)
-- [feasibility.json](feasibility.json)
+## Sources
 
-[Research source](https://arxiv.org/abs/2005.00566) · [Result data](result.json) · [All mathematical results](../README.md)
+- [Relationships between the number of inputs and other complexity measures of Boolean functions](https://arxiv.org/abs/2005.00566)
+
+[Result data](result.json) · [All mathematical results](../README.md)

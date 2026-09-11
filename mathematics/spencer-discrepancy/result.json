@@ -1,14 +1,31 @@
 {
   "id": "spencer-discrepancy",
-  "title": "Spencer discrepancy constant",
-  "reference": "7/√17 ≈ 1.697749",
-  "result": "5/√8 ≈ 1.767767",
-  "meaning": "A stronger lower bound on the smallest universal constant in the square-matrix discrepancy problem.",
-  "source_url": "https://teorth.github.io/optimizationproblems/constants/10c.html",
-  "artifact_description": "An explicit 8 × 8 matrix with discrepancy five over its 256 sign assignments.",
+  "title": "Spencer discrepancy",
+  "reviewed_on": "2026-09-11",
+  "status": "record",
+  "results": [
+    {
+      "id": "spencer",
+      "name": "Spencer discrepancy",
+      "kind": "Lower bound",
+      "published": "7/√17 ≈ 1.697749",
+      "value": "5/√8 ≈ 1.767767",
+      "scope": "All square matrices A ∈ [−1,1]ⁿˣⁿ. The witness has entries in {−1,0,1}; this is not a sign-matrix-only claim.",
+      "verification": "All 256 sign vectors checked. The 8 × 8 matrix has discrepancy exactly 5.",
+      "note": "The construction is also available in the submitted registry update.",
+      "sources": [
+        {
+          "title": "A collection of optimization problems in mathematics",
+          "url": "https://github.com/teorth/optimizationproblems/blob/main/constants/10c.md"
+        }
+      ]
+    }
+  ],
   "artifacts": [
     {
-      "file": "matrix.json"
+      "file": "matrix.json",
+      "bytes": 181,
+      "sha256": "86678d6c6d3883946a0bdd841e88836cff115dfab4c7cc03b849d8dcd36d245f"
     }
   ]
 }

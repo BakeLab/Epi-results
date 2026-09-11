@@ -1,15 +1,23 @@
-# Quartic Feigenbaum attractor
+# Quartic Feigenbaum attractor dimension
 
-A high-precision numerical enclosure for the Hausdorff dimension of the attractor with a quartic critical point.
+| Quantity | Published comparison | Épi |
+| :-- | :-- | :-- |
+| Quartic Feigenbaum attractor dimension | [0.6395131468772885, 0.6473156929016112] | **[0.6425750638035370, 0.6425750659339700]** |
 
-| Reference | Épi |
-| :-- | :-- |
-| [0.6395131468772886, 0.6473156929016111] | **0.6425750648687785366211294405358324482526899233599841409380665852517043047545 ± 10⁻⁷⁵** |
+Hausdorff dimension of the real Feigenbaum attractor with a quartic critical point.
+
+Independent 256-bit interval pressure calculation over 16,344 cells per endpoint, including the fixed-point function error.
+
+Width 2.130433 × 10⁻⁹. The comparison is with the cited rigorous quartic enclosure; Pollicott’s later result concerns the quadratic attractor.
 
 ## Final artifacts
 
-The final fixed-point coefficients. The reported enclosure is a high-precision numerical result, without an interval-certified fixed point.
+- [function-enclosure.json](function-enclosure.json)
+- [pressure-certificate.json.gz](pressure-certificate.json.gz)
 
-- [fixed-point.json](fixed-point.json)
+## Sources
 
-[Research source](https://arxiv.org/abs/2102.11239) · [Result data](result.json) · [All mathematical results](../README.md)
+- [Rigorous bounds on the Hausdorff dimension of Feigenbaum attractors](https://arxiv.org/abs/2102.11239)
+- [Dimension of the Feigenbaum Attractor (quadratic critical point)](https://arxiv.org/abs/2606.12052)
+
+[Result data](result.json) · [All mathematical results](../README.md)

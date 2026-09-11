@@ -1,17 +1,17 @@
 # Pentagons in a triangle
 
-Minimize the side of an equilateral triangle containing non-overlapping regular pentagons of side one.
+9 final constructions. Current standings reviewed on 2026-09-11.
 
-9 improved constructions. Numerical values retain full precision in the linked JSON files.
+| Instance | Current source | Épi | Standing |
+| :-- | :-- | :-- | :-- |
+| [penintri_n30](penintri_n30) | 12.38240+ | **12.382402480454866** | Listed record |
+| [penintri_n32](penintri_n32) | 12.70492+ | **12.704927909969749** | Listed record |
+| [penintri_n33](penintri_n33) | 12.85985+ | **12.859850017642387** | Listed record |
+| [penintri_n34](penintri_n34) | 12.97563+ | **12.97563735803487** | Listed record |
+| [penintri_n36](penintri_n36) | 13.17841+ | **13.178411901366871** | Listed record |
+| [penintri_n37](penintri_n37) | 13.63430+ | **13.634303491279889** | Listed record |
+| [penintri_n38](penintri_n38) | 13.82313+ | **13.823132023718685** | Listed record |
+| [penintri_n39](penintri_n39) | 13.97521+ | **13.975213205316145** | Listed record |
+| [penintri_n40](penintri_n40) | 14.13674+ | **14.13674532714072** | Listed record |
 
-| Case | Reference | Épi |
-| :-- | --: | --: |
-| [penintri_n30](penintri_n30) | 12.3889315940904 | **12.3824024804549** |
-| [penintri_n32](penintri_n32) | 12.7111784750775 | **12.7049279099697** |
-| [penintri_n33](penintri_n33) | 12.863919951364 | **12.8598500176424** |
-| [penintri_n34](penintri_n34) | 12.98141 | **12.9756373580349** |
-| [penintri_n36](penintri_n36) | 13.1835412446298 | **13.1784119013669** |
-| [penintri_n37](penintri_n37) | 13.6435941595251 | **13.6343034912799** |
-| [penintri_n38](penintri_n38) | 13.8499566591374 | **13.8231320237187** |
-| [penintri_n39](penintri_n39) | 13.9843149695291 | **13.9752132053161** |
-| [penintri_n40](penintri_n40) | 14.1395378362785 | **14.1367453271407** |
+[Complete construction index](../../data/records.json)

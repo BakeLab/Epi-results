@@ -1,18 +1,21 @@
 {
   "id": "pack_csc_n169",
   "category": "semicircle",
-  "title": "Packomania csc, N = 169: equal circles in a semicircle, maximise the common radius",
+  "title": "Circles in a semicircle: N = 169",
   "direction": "max",
-  "baseline": 0.04993858098206804,
   "result": 0.049951557087860796,
-  "improvement": 1.2976105792754378e-05,
-  "source_url": "https://packomania.com/csc/txt/csc169.txt",
+  "source_url": "https://packomania.com/csc/csc.html",
   "source": "Eckard Specht, Packomania",
-  "cohort": "announcement",
   "construction": "records/semicircle/pack_csc_n169/construction.json",
   "parameters": {
     "container": "semicircle",
     "dim": 2,
     "n_objects": 169
-  }
+  },
+  "previous_comparison": 0.04993858098206804,
+  "current_reference": "0.049938580982068043467491457178",
+  "status": "improves_registry",
+  "reviewed_on": "2026-09-11",
+  "verification": "All pair distances and container boundaries; float64",
+  "artifact_sha256": "ed78aa0d6da2cf867fb792cc45ab765ec49e752c43bbef9534cf9be54901881b"
 }

@@ -1,16 +1,29 @@
-# Quantum capacity: X-Z and 2-Pauli channels
+# Quantum-capacity thresholds
 
-Higher noise rates at which the supplied quantum states have positive coherent information.
+| Quantity | Published comparison | Épi |
+| :-- | :-- | :-- |
+| Quantum capacity, independent X–Z | 0.11837113922723974 | **0.1198803** |
+| Quantum capacity, Two-Pauli | 0.1180672806619063 | **0.1193415** |
 
-| Reference | Épi |
-| :-- | :-- |
-| 0.11837113922723974; 0.1180672806619063 | **checked noise rates 0.11953371; 0.11928637** |
+### Quantum capacity, independent X–Z
+
+Independent bit- and phase-flip channel, each with probability p. Positive coherent information at the displayed p.
+
+Independent 384-bit Arb calculation of all 21 symmetry blocks; coherent information is strictly positive.
+
+### Quantum capacity, Two-Pauli
+
+Two-Pauli channel with probabilities (1−2p, p, 0, p) for (I,X,Y,Z). Positive coherent information at the displayed p.
+
+Independent 384-bit Arb calculation of all 21 symmetry blocks; coherent information is strictly positive.
 
 ## Final artifacts
 
-The final state amplitudes for 37 X-Z channel uses and 35 two-Pauli channel uses. At the reported noise rates, extended-precision numerical evaluations give positive coherent-information margins of 1.66 × 10⁻⁹ and 3.26 × 10⁻⁹.
+- [two-pauli-n40.json](two-pauli-n40.json)
+- [xz-n40.json](xz-n40.json)
 
-- [two-pauli-n35.json](two-pauli-n35.json)
-- [xz-n37.json](xz-n37.json)
+## Sources
 
-[Research source](https://arxiv.org/abs/2605.09138) · [Result data](result.json) · [All mathematical results](../README.md)
+- [Enhanced quantum capacity thresholds from symmetry](https://arxiv.org/abs/2605.09138)
+
+[Result data](result.json) · [All mathematical results](../README.md)

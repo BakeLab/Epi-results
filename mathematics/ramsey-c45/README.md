@@ -1,16 +1,19 @@
 # Ramsey multiplicity c₄,₅
 
-A smaller upper bound on the limiting density of monochromatic cliques in two-colorings.
+| Quantity | Published comparison | Épi |
+| :-- | :-- | :-- |
+| Ramsey multiplicity c₄,₅ | 2129191/2²⁸ ≈ 0.007931854575872 | **4427841832181/2⁴⁹ ≈ 0.007865427122378** |
 
-| Reference | Épi |
-| :-- | :-- |
-| 2129191/2²⁸ | **1081216445/2³⁷** |
+Asymptotic homomorphism-density sum t(K₄,W) + t(K₅,1−W), minimized over graphons; exact blow-up bound.
+
+Separate exact graph and complement counts on 1,024 vertices, with the blow-up objective assembled from integer counts.
 
 ## Final artifacts
 
-The final graph on 1024 vertices, in graph6 format and as a generating set.
-
 - [construction.graph6](construction.graph6)
-- [generators.txt](generators.txt)
 
-[Research source](https://arxiv.org/abs/2206.04036) · [Result data](result.json) · [All mathematical results](../README.md)
+## Sources
+
+- [New Ramsey Multiplicity Bounds and Search Heuristics](https://arxiv.org/abs/2206.04036)
+
+[Result data](result.json) · [All mathematical results](../README.md)

@@ -1,14 +1,44 @@
 {
   "id": "feigenbaum",
-  "title": "Quartic Feigenbaum attractor",
-  "reference": "[0.6395131468772886, 0.6473156929016111]",
-  "result": "0.6425750648687785366211294405358324482526899233599841409380665852517043047545 ± 10⁻⁷⁵",
-  "meaning": "A high-precision numerical enclosure for the Hausdorff dimension of the attractor with a quartic critical point.",
-  "source_url": "https://arxiv.org/abs/2102.11239",
-  "artifact_description": "The final fixed-point coefficients. The reported enclosure is a high-precision numerical result, without an interval-certified fixed point.",
+  "title": "Quartic Feigenbaum attractor dimension",
+  "reviewed_on": "2026-09-11",
+  "status": "record",
+  "results": [
+    {
+      "id": "feigenbaum",
+      "name": "Quartic Feigenbaum attractor dimension",
+      "kind": "Enclosing interval",
+      "published": "[0.6395131468772885, 0.6473156929016112]",
+      "value": "[0.6425750638035370, 0.6425750659339700]",
+      "scope": "Hausdorff dimension of the real Feigenbaum attractor with a quartic critical point.",
+      "verification": "Independent 256-bit interval pressure calculation over 16,344 cells per endpoint, including the fixed-point function error.",
+      "note": "Width 2.130433 × 10⁻⁹. The comparison is with the cited rigorous quartic enclosure; Pollicott’s later result concerns the quadratic attractor.",
+      "certified": {
+        "lower": "128515012760707409344217544201526142571/200000000000000000000000000000000000000",
+        "upper": "128515013186793984655782455798473857429/200000000000000000000000000000000000000"
+      },
+      "sources": [
+        {
+          "title": "Rigorous bounds on the Hausdorff dimension of Feigenbaum attractors",
+          "url": "https://arxiv.org/abs/2102.11239"
+        },
+        {
+          "title": "Dimension of the Feigenbaum Attractor (quadratic critical point)",
+          "url": "https://arxiv.org/abs/2606.12052"
+        }
+      ]
+    }
+  ],
   "artifacts": [
     {
-      "file": "fixed-point.json"
+      "file": "function-enclosure.json",
+      "bytes": 10866,
+      "sha256": "ac0db954fa883c842dcbb548a08a913c1a8ed58075d59efa32e27d6bcbc4720e"
+    },
+    {
+      "file": "pressure-certificate.json.gz",
+      "bytes": 281856,
+      "sha256": "c8d4cbd4a14813348bcde838aaf7d91d44b40231a09e06d69a2b04e59f090d6c"
     }
   ]
 }

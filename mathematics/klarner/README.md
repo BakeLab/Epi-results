@@ -1,17 +1,19 @@
 # Klarner’s constant
 
-An upper bound on the exponential growth rate of the number of polyominoes.
+| Quantity | Published comparison | Épi |
+| :-- | :-- | :-- |
+| Klarner’s constant λ (polyomino growth) | 4.5238 | **4.29569** |
 
-| Reference | Épi |
-| :-- | :-- |
-| 4.5238 | **4.405 = 881/200** |
+Exponential growth constant of all finite square-lattice polyominoes; the recurrence covers all sizes.
+
+All 1,186 pattern types, 10,539 terms and 22,334 decomposition steps checked, together with an exact rational supersolution.
 
 ## Final artifacts
 
-321 rational inequalities and their supersolution at z = 200/881.
+- [certificate.json.gz](certificate.json.gz)
 
-- [certificate.json](certificate.json)
-- [patterns.txt](patterns.txt)
-- [rules.txt](rules.txt)
+## Sources
 
-[Research source](https://arxiv.org/abs/2511.00461) · [Result data](result.json) · [All mathematical results](../README.md)
+- [A convolutional approach to bounding the number of polyominoes](https://arxiv.org/abs/2511.00461)
+
+[Result data](result.json) · [All mathematical results](../README.md)

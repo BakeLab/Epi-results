@@ -1,14 +1,30 @@
 {
   "id": "max4cut",
   "title": "MAX-4-CUT hardness ratio",
-  "reference": "195581/198140 ≈ 0.9870848895",
-  "result": "6529501/6618824 ≈ 0.9865047023",
-  "meaning": "An improved gadget-based NP-hardness threshold for approximating MAX-4-CUT.",
-  "source_url": "https://arxiv.org/abs/2509.18057",
-  "artifact_description": "The integer weighted edge list giving the exact ratio 6529501/6618824.",
+  "reviewed_on": "2026-09-11",
+  "status": "record",
+  "results": [
+    {
+      "id": "max4",
+      "name": "MAX-4-CUT hardness ratio",
+      "kind": "Upper bound",
+      "published": "195581/198140 ≈ 0.9870848895",
+      "value": "84931/86101 ≈ 0.986411307651",
+      "scope": "Unconditional NP-hardness approximation factor for MAX-4-CUT, using the cited gadget-reduction framework.",
+      "verification": "Independent exact enumeration of the gadget’s completeness and soundness cases.",
+      "sources": [
+        {
+          "title": "Reinforced Generation of Combinatorial Structures: Hardness of Approximation",
+          "url": "https://arxiv.org/abs/2509.18057"
+        }
+      ]
+    }
+  ],
   "artifacts": [
     {
-      "file": "gadget.txt"
+      "file": "gadget.json",
+      "bytes": 1495,
+      "sha256": "542b6193494fd0edd668974edd579468adc11ac8965d4bddffe18f8c32a1982c"
     }
   ]
 }

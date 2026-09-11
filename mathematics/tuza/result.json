@@ -1,0 +1,44 @@
+{
+  "id": "tuza",
+  "title": "Tuza’s conjecture for a larger split-graph class",
+  "reviewed_on": "2026-09-11",
+  "status": "theorem_extension",
+  "results": [
+    {
+      "name": "Tuza’s conjecture for a larger split-graph class",
+      "value": "τ△(G) ≤ 2ν△(G)",
+      "published": "At most two active neighborhood types",
+      "extension": "At most three active neighborhood types",
+      "scope": "Finite simple split graphs with a specified partition V = C ⊔ I, where C induces K₈ and I is independent. Among vertices of I with at least two neighbors in C, at most three distinct neighborhoods occur. Each type may have arbitrary multiplicity.",
+      "verification": "The reduction covers all 872 three-type classes. Known arguments cover 35 nested classes and 277 further classes. Exact triangle covers and edge-disjoint triangle packings verify the remaining 560 classes, using 18,444 boxes. A truncation argument extends the finite check to arbitrary multiplicities.",
+      "note": "Here τ△ is the minimum number of edges meeting every triangle, and ν△ is the maximum number of edge-disjoint triangles. The graph may have arbitrarily many vertices; eight is the clique-part size.",
+      "sources": [
+        {
+          "title": "Tuza’s Conjecture for Split Graphs with an Eight-Vertex Clique Part and Two Neighborhood Types",
+          "url": "https://www.preprints.org/manuscript/202608.1304"
+        },
+        {
+          "title": "Tuza’s conjecture for threshold graphs",
+          "url": "https://doi.org/10.46298/dmtcs.7660"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "certificate.json.gz",
+      "bytes": 407732,
+      "sha256": "44468134b3b2aaf1b5589a09f5d5f797a39c0604dc7f76e97eb0264e8a29d46a"
+    },
+    {
+      "file": "PROOF.md",
+      "bytes": 3688,
+      "sha256": "dc7d100e56a586ba698fd9e621cde6afd8ee88d09c252645b270243f52685b94"
+    },
+    {
+      "file": "verify.py",
+      "bytes": 4534,
+      "sha256": "92ebd8ea3b23d4ac4b84abf1e3cc08f75751335746d156e5cc326d0bc3df8b95"
+    }
+  ]
+}

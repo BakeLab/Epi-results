@@ -1,9 +1,11 @@
-# Spin-glass energy: ising_ea3d_n2084
+# Spin-glass energy: N = 2084, realization 1
 
-Minimize the energy of the 2,084-spin Edwards–Anderson instance.
+| Previous comparison | Current source | Épi | Standing |
+| :-- | :-- | :-- | :-- |
+| -3247.1509611380957 | -3247.1509611380957 | **-3247.334606022995** | Reference improvement |
 
-| Reference | Épi | Direction |
-| :-- | :-- | :-- |
-| -3247.1509611381 | **-3247.334606023** | Lower is better |
+Minimize the energy of the specified 2084-spin realization.
 
-[Construction](construction.json) · [Full-precision result](result.json) · [Source](https://zenodo.org/records/16547191)
+Exact integer sum of all released couplings times spin products. Comparison is with the named Zenodo instance, not a proof of its ground-state energy.
+
+[Final construction](construction.json) · [Result data](result.json) · [Comparison source](https://zenodo.org/records/16547191)

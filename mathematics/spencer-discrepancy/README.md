@@ -1,15 +1,21 @@
-# Spencer discrepancy constant
+# Spencer discrepancy
 
-A stronger lower bound on the smallest universal constant in the square-matrix discrepancy problem.
+| Quantity | Published comparison | Épi |
+| :-- | :-- | :-- |
+| Spencer discrepancy | 7/√17 ≈ 1.697749 | **5/√8 ≈ 1.767767** |
 
-| Reference | Épi |
-| :-- | :-- |
-| 7/√17 ≈ 1.697749 | **5/√8 ≈ 1.767767** |
+All square matrices A ∈ [−1,1]ⁿˣⁿ. The witness has entries in {−1,0,1}; this is not a sign-matrix-only claim.
+
+All 256 sign vectors checked. The 8 × 8 matrix has discrepancy exactly 5.
+
+The construction is also available in the submitted registry update.
 
 ## Final artifacts
 
-An explicit 8 × 8 matrix with discrepancy five over its 256 sign assignments.
-
 - [matrix.json](matrix.json)
 
-[Research source](https://teorth.github.io/optimizationproblems/constants/10c.html) · [Result data](result.json) · [All mathematical results](../README.md)
+## Sources
+
+- [A collection of optimization problems in mathematics](https://github.com/teorth/optimizationproblems/blob/main/constants/10c.md)
+
+[Result data](result.json) · [All mathematical results](../README.md)
