@@ -15,9 +15,9 @@
 
 <table>
 <tr>
-<td width="33%" align="center"><h2>20</h2>Numerical bound records<br><br></td>
-<td width="33%" align="center"><h2>1</h2>Theorem extension<br><br></td>
-<td width="33%" align="center"><h2>106</h2>Released constructions<br><br></td>
+<td width="280" align="center" valign="top"><h2>20</h2>Numerical bound<br>records<br><br></td>
+<td width="280" align="center" valign="top"><h2>1</h2>Theorem<br>extension<br><br></td>
+<td width="280" align="center" valign="top"><h2>106</h2>Released<br>constructions<br><br></td>
 </tr>
 </table>
 
