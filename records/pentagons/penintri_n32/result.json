@@ -1,14 +1,11 @@
 {
   "id": "penintri_n32",
   "category": "pentagons",
-  "title": "",
+  "title": "Pentagons in a triangle: N = 32",
   "direction": "min",
-  "baseline": 12.71117847507754,
   "result": 12.704927909969749,
-  "improvement": 0.006250565107791317,
   "source_url": "https://erich-friedman.github.io/packing/penintri/",
   "source": "Erich Friedman, pentagons in triangles",
-  "cohort": "earlier-pentagon-refinement",
   "construction": "records/pentagons/penintri_n32/construction.json",
   "parameters": {
     "n": 32,
@@ -17,5 +14,12 @@
     "vertex_offset": "pi/10",
     "overlap_tolerance": 1e-12
   },
-  "literature_value": 12.73299
+  "literature_value": 12.73299,
+  "previous_comparison": 12.71117847507754,
+  "current_reference": "12.70492+",
+  "status": "listed_record",
+  "reviewed_on": "2026-09-11",
+  "verification": "All polygon pairs by separating axes; minimal upright enclosing triangle; tolerance 1e-12",
+  "artifact_sha256": "8ea49d09a7ccd1ce282a5916fe624a4711718e3d121d9995ad2191237a2d409b",
+  "attribution": "Friedman credits Yue Huang; listed decimals are truncated."
 }

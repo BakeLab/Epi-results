@@ -1,18 +1,19 @@
-# Dimer entropy in three dimensions
+# Cubic-lattice dimer constant
 
-A tighter upper bound on the per-site entropy of perfect matchings of the cubic lattice.
+| Quantity | Published comparison | Épi |
+| :-- | :-- | :-- |
+| Cubic-lattice dimer constant | 0.452130 | **0.452010** |
 
-| Reference | Épi |
-| :-- | :-- |
-| upper bound 0.452130 | **upper bound 0.452009597554483** |
+Per-site entropy of perfect matchings of the infinite cubic lattice ℤ³.
+
+Positive integer transfer-operator certificate; the final entropy bound is rounded upward.
 
 ## Final artifacts
 
-Positive integer vectors satisfying the transfer-operator inequalities. The final logarithm is evaluated numerically.
+- [certificate.json.gz](https://github.com/HowieHwong/Epi-results/releases/download/v1.1.0/dimer-certificate.json.gz) · 0.8 MiB download
 
+## Sources
 
-[Download the certificate archive](https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/mathematical-certificates.zip). Files for this result:
+- [A new upper bound on the dimer constant of ℤ³](https://arxiv.org/abs/2607.28810)
 
-- `dimer/c55.cert`
-
-[Research source](https://arxiv.org/abs/2607.28810) · [Result data](result.json) · [All mathematical results](../README.md)
+[Result data](result.json) · [All mathematical results](../README.md)

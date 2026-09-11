@@ -1,9 +1,11 @@
-# Circles in a circular quadrant: pack_ccq_n342
+# Circles in a quadrant: N = 342
 
-Maximize the common radius inside a unit circular quadrant.
+| Previous comparison | Current source | Épi | Standing |
+| :-- | :-- | :-- | :-- |
+| 0.02500947274682682 | 0.025009472746826819080944706698 | **0.02501004719300215** | Improves registry |
 
-| Reference | Épi | Direction |
-| :-- | :-- | :-- |
-| 0.0250094727468268 | **0.0250100471930021** | Higher is better |
+Maximize the common circle radius in a quarter disk of unit radius.
 
-[Construction](construction.json) · [Full-precision result](result.json) · [Source](https://packomania.com/ccq/txt/ccq342.txt)
+All pair distances and container boundaries; float64
+
+[Final construction](construction.json) · [Result data](result.json) · [Comparison source](https://packomania.com/ccq/ccq.html)

@@ -1,17 +1,50 @@
 {
   "id": "quantum-capacity",
-  "title": "Quantum capacity: X-Z and 2-Pauli channels",
-  "reference": "0.11837113922723974; 0.1180672806619063",
-  "result": "checked noise rates 0.11953371; 0.11928637",
-  "meaning": "Higher noise rates at which the supplied quantum states have positive coherent information.",
-  "source_url": "https://arxiv.org/abs/2605.09138",
-  "artifact_description": "The final state amplitudes for 37 X-Z channel uses and 35 two-Pauli channel uses. At the reported noise rates, extended-precision numerical evaluations give positive coherent-information margins of 1.66 × 10⁻⁹ and 3.26 × 10⁻⁹.",
-  "artifacts": [
+  "title": "Quantum-capacity thresholds",
+  "reviewed_on": "2026-09-11",
+  "status": "record",
+  "results": [
     {
-      "file": "two-pauli-n35.json"
+      "id": "xz",
+      "name": "Quantum capacity, independent X–Z",
+      "kind": "Positive-capacity noise threshold",
+      "published": "0.11837113922723974",
+      "value": "0.1198803",
+      "scope": "Independent bit- and phase-flip channel, each with probability p. Positive coherent information at the displayed p.",
+      "verification": "Independent 384-bit Arb calculation of all 21 symmetry blocks; coherent information is strictly positive.",
+      "sources": [
+        {
+          "title": "Enhanced quantum capacity thresholds from symmetry",
+          "url": "https://arxiv.org/abs/2605.09138"
+        }
+      ]
     },
     {
-      "file": "xz-n37.json"
+      "id": "two-pauli",
+      "name": "Quantum capacity, Two-Pauli",
+      "kind": "Positive-capacity noise threshold",
+      "published": "0.1180672806619063",
+      "value": "0.1193415",
+      "scope": "Two-Pauli channel with probabilities (1−2p, p, 0, p) for (I,X,Y,Z). Positive coherent information at the displayed p.",
+      "verification": "Independent 384-bit Arb calculation of all 21 symmetry blocks; coherent information is strictly positive.",
+      "sources": [
+        {
+          "title": "Enhanced quantum capacity thresholds from symmetry",
+          "url": "https://arxiv.org/abs/2605.09138"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "two-pauli-n40.json",
+      "bytes": 3701,
+      "sha256": "7d071641af22a6fc9f623123cf3f044ff53bea00208f95be81ff9e3444983e56"
+    },
+    {
+      "file": "xz-n40.json",
+      "bytes": 2277,
+      "sha256": "161ba9f557d41c677f98694806bf64744922bd57c1f8de4b094ed66003e3ab80"
     }
   ]
 }

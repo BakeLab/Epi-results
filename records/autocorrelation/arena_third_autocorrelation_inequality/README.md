@@ -1,11 +1,13 @@
-# Third autocorrelation inequality: arena_third_autocorrelation_inequality
+# Third autocorrelation inequality: Third autocorrelation inequality (signed maximum)
 
-Lower the upper bound obtained from the autoconvolution of a step function.
+| Previous comparison | Current source | Épi | Standing |
+| :-- | :-- | :-- | :-- |
+| 1.4515718638902069 | 1.45081 (displayed) | **1.4508066395052839** | Listed record |
 
-| Reference | Épi | Direction |
-| :-- | :-- | :-- |
-| 1.45157186389021 | **1.45080663950528** | Lower is better |
+Minimize the signed step-function convolution objective used by EinsteinArena.
 
-The reported quantity is `abs(2*n*max(convolve(h,h))/sum(h)^2)`. The absolute value is outside the maximum. The cited literature value is 1.4557; the table compares against the stronger EinsteinArena baseline.
+All 16,384 signed step values checked by direct convolution. Objective: abs(2n max(a∗a)/(Σa)²), with the absolute value outside the maximum.
 
-[Construction](construction.json) · [Full-precision result](result.json) · [Source](https://einsteinarena.com/problems/third-autocorrelation-inequality)
+EinsteinArena ranks the submitted result first under the project’s former name, Poolish.
+
+[Final construction](construction.json) · [Result data](result.json) · [Comparison source](https://einsteinarena.com/problems/third-autocorrelation-inequality)

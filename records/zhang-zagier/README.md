@@ -1,9 +1,9 @@
-# Zhang–Zagier height
+# Zhang–Zagier essential minimum
 
-Lower the certified upper bound on the essential minimum C₈₂.
+1 final constructions. Current standings reviewed on 2026-09-11.
 
-1 improved construction. Numerical values retain full precision in the linked JSON files.
+| Instance | Current source | Épi | Standing |
+| :-- | :-- | :-- | :-- |
+| [zhang_zagier_c82](zhang_zagier_c82) | 0.2536331090204145 | **0.2535744749068227** | Improves registry |
 
-| Case | Reference | Épi |
-| :-- | --: | --: |
-| [zhang_zagier_c82](zhang_zagier_c82) | 0.253633109020415 | **0.253574474906823** |
+[Complete construction index](../../data/records.json)

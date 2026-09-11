@@ -1,16 +1,20 @@
 {
   "id": "qubit_routing",
   "category": "qubit-routing",
-  "title": "qubit_routing",
+  "title": "Qubit routing: 61 circuits on Q20, Willow and Heron",
   "direction": "min",
-  "baseline": 258366.0,
   "result": 254226.0,
-  "improvement": 4140.0,
   "source_url": "https://github.com/Tencent-Hunyuan/hyra-results/tree/main/AI4Science/qubit_routing",
   "source": "Hyra quantum circuit routing results",
-  "cohort": "announcement",
   "construction": "records/qubit-routing/qubit_routing/construction.json.gz",
   "parameters": {},
   "literature_value": 258369,
-  "baseline_note": "258366 is recomputed from the published circuit files; the upstream README reports 258369."
+  "baseline_note": "258366 is recomputed from the published circuit files; the upstream README reports 258369.",
+  "previous_comparison": 258366.0,
+  "current_reference": "258366 (recomputed)",
+  "status": "reference_improvement",
+  "reviewed_on": "2026-09-11",
+  "verification": "All 61 final circuits replayed with the frozen verifier: allowed gates, device adjacency, logical-gate order and routing overhead.",
+  "artifact_sha256": "b849a0aeaa3c642d57f43e545eba65cd982ddf2074ee381b107d75fe0313bf3d",
+  "note": "Hyra’s README prints 258369. Replaying its released circuits gives 258366; the comparison uses that recomputed total."
 }

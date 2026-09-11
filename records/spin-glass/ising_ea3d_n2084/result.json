@@ -1,14 +1,17 @@
 {
   "id": "ising_ea3d_n2084",
   "category": "spin-glass",
-  "title": "3D Edwards-Anderson spin glass, N = 2084: minimise the energy",
+  "title": "Spin-glass energy: N = 2084, realization 1",
   "direction": "min",
-  "baseline": -3247.1509611380957,
   "result": -3247.334606022995,
-  "improvement": 0.18364488489942232,
   "source_url": "https://zenodo.org/records/16547191",
   "source": "Zhang and Kamenev, SpinGlassData, N_2084_realization_1",
-  "cohort": "announcement",
   "construction": "records/spin-glass/ising_ea3d_n2084/construction.json",
-  "parameters": {}
+  "parameters": {},
+  "previous_comparison": -3247.1509611380957,
+  "current_reference": "-3247.1509611380957",
+  "status": "reference_improvement",
+  "reviewed_on": "2026-09-11",
+  "verification": "Exact integer sum of all released couplings times spin products. Comparison is with the named Zenodo instance, not a proof of its ground-state energy.",
+  "artifact_sha256": "411cc1603c155668ea3172b9d9b6858eb5aac8c84a087f52009fb35f9c674974"
 }

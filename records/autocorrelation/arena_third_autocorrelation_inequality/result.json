@@ -1,16 +1,20 @@
 {
   "id": "arena_third_autocorrelation_inequality",
   "category": "autocorrelation",
-  "title": "Third Autocorrelation Inequality (Upper Bound)",
+  "title": "Third autocorrelation inequality: Third autocorrelation inequality (signed maximum)",
   "direction": "min",
-  "baseline": 1.4515718638902069,
   "result": 1.4508066395052839,
-  "improvement": 0.0007652243849229912,
   "source_url": "https://einsteinarena.com/problems/third-autocorrelation-inequality",
   "source": "EinsteinArena, third autocorrelation inequality",
-  "cohort": "announcement",
   "construction": "records/autocorrelation/arena_third_autocorrelation_inequality/construction.json",
   "parameters": {},
   "literature_value": 1.4557,
-  "definition": "abs(2*n*max(convolve(values,values))/sum(values)^2)"
+  "definition": "abs(2*n*max(convolve(values,values))/sum(values)^2)",
+  "previous_comparison": 1.4515718638902069,
+  "current_reference": "1.45081 (displayed)",
+  "status": "listed_record",
+  "reviewed_on": "2026-09-11",
+  "verification": "All 16,384 signed step values checked by direct convolution. Objective: abs(2n max(a∗a)/(Σa)²), with the absolute value outside the maximum.",
+  "artifact_sha256": "320f0967ef5a8856f41e1644bfa9b7a1ab76593d979a43fe38241a3c11033ee2",
+  "attribution": "EinsteinArena ranks the submitted result first under the project’s former name, Poolish."
 }

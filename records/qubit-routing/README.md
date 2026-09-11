@@ -1,9 +1,9 @@
-# Quantum circuit routing
+# Qubit routing
 
-Minimize routing overhead across 61 circuits, measured as three CNOTs per SWAP.
+1 final constructions. Current standings reviewed on 2026-09-11.
 
-1 improved construction. Numerical values retain full precision in the linked JSON files.
+| Instance | Current source | Épi | Standing |
+| :-- | :-- | :-- | :-- |
+| [qubit_routing](qubit_routing) | 258366 (recomputed) | **254226.0** | Reference improvement |
 
-| Case | Reference | Épi |
-| :-- | --: | --: |
-| [qubit_routing](qubit_routing) | 258366 | **254226** |
+[Complete construction index](../../data/records.json)

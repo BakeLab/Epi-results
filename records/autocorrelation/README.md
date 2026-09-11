@@ -1,9 +1,9 @@
 # Third autocorrelation inequality
 
-Lower the upper bound obtained from the autoconvolution of a step function.
+1 final constructions. Current standings reviewed on 2026-09-11.
 
-1 improved construction. Numerical values retain full precision in the linked JSON files.
+| Instance | Current source | Épi | Standing |
+| :-- | :-- | :-- | :-- |
+| [arena_third_autocorrelation_inequality](arena_third_autocorrelation_inequality) | 1.45081 (displayed) | **1.4508066395052839** | Listed record |
 
-| Case | Reference | Épi |
-| :-- | --: | --: |
-| [arena_third_autocorrelation_inequality](arena_third_autocorrelation_inequality) | 1.45157186389021 | **1.45080663950528** |
+[Complete construction index](../../data/records.json)

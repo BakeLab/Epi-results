@@ -1,9 +1,11 @@
-# Circles in a semicircle: pack_csc_n159
+# Circles in a semicircle: N = 159
 
-Maximize the common radius inside a unit semicircle.
+| Previous comparison | Current source | Épi | Standing |
+| :-- | :-- | :-- | :-- |
+| 0.05133533823560289 | 0.051337618534 | **0.0513359147227591** | Superseded |
 
-| Reference | Épi | Direction |
-| :-- | :-- | :-- |
-| 0.0513353382356029 | **0.0513359147227591** | Higher is better |
+Maximize the common circle radius in a half disk of unit radius.
 
-[Construction](construction.json) · [Full-precision result](result.json) · [Source](https://packomania.com/csc/txt/csc159.txt)
+All pair distances and container boundaries; float64
+
+[Final construction](construction.json) · [Result data](result.json) · [Comparison source](https://packomania.com/csc/csc.html)

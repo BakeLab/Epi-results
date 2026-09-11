@@ -1,14 +1,11 @@
 {
   "id": "cvrp_xl_n1048_k237",
   "category": "vehicle-routing",
-  "title": "CVRPLIB XL instance XL-n1048-k237: capacitated vehicle routing, minimise total route length",
+  "title": "Capacitated vehicle routing: XL-n1048-k237",
   "direction": "min",
-  "baseline": 380107.0,
   "result": 380092.0,
-  "improvement": 15.0,
-  "source_url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/instances",
+  "source_url": "https://galgos.inf.puc-rio.br/cvrplib/index.php/en/plots/280",
   "source": "CVRPLIB, XL-n1048-k237; BKS snapshot of 2 September 2026",
-  "cohort": "announcement",
   "construction": "records/vehicle-routing/cvrp_xl_n1048_k237/construction.json",
   "parameters": {
     "n_customers": 1047,
@@ -17,5 +14,11 @@
     "dimension": 1048,
     "edge_length": "EUC_2D rounded to the nearest integer (no .5 ties exist: integer coordinates)",
     "customer_numbering": "node id minus one, as in the .sol file; depot is node 1"
-  }
+  },
+  "previous_comparison": 380107.0,
+  "current_reference": "380092",
+  "status": "listed_record",
+  "reviewed_on": "2026-09-11",
+  "verification": "All 1,047 customers visited once; exact capacity and rounded-distance checks; 238 feasible routes.",
+  "artifact_sha256": "2c8a6302c1bc83d6f1d118be497a34a2b46f0e43c8a31c3f18d91a20e18ce8c3"
 }

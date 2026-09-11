@@ -1,6 +1,7 @@
 {
-  "filename": "upper-n2048.npz",
-  "bytes": 114158953,
-  "sha256": "cbc58e38224a63adc07928b53c85a36366c03a18e31a6668f2113d1da32043c5",
-  "url": "https://github.com/HowieHwong/Epi-results/releases/download/v1.0.0/upper-n2048.npz"
+  "n": 4096,
+  "x_length": 67141628,
+  "data": "upper-witness.f64.zlib",
+  "encoding": "zlib-compressed little-endian float64",
+  "decoded_bytes": 537133024
 }

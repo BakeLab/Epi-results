@@ -1,9 +1,11 @@
-# Balls in four dimensions: pack_hsp4_n220
+# Balls in four dimensions: N = 220
 
-Maximize the common radius of equal balls inside the four-dimensional unit ball.
+| Previous comparison | Current source | Épi | Standing |
+| :-- | :-- | :-- | :-- |
+| 0.202684437558 | 0.202684437558 | **0.20268509774853616** | Improves registry |
 
-| Reference | Épi | Direction |
-| :-- | :-- | :-- |
-| 0.202684437558 | **0.202685097748536** | Higher is better |
+Maximize the common ball radius inside the four-dimensional unit ball.
 
-[Construction](construction.json) · [Full-precision result](result.json) · [Source](https://packomania.com/hsp4/txt/hsp4-220.txt)
+All pair distances and container boundaries; float64
+
+[Final construction](construction.json) · [Result data](result.json) · [Comparison source](https://packomania.com/hsp4/hsp4.html)

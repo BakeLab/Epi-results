@@ -1,9 +1,9 @@
 # Spin-glass energy
 
-Minimize the energy of the 2,084-spin Edwards–Anderson instance.
+1 final constructions. Current standings reviewed on 2026-09-11.
 
-1 improved construction. Numerical values retain full precision in the linked JSON files.
+| Instance | Current source | Épi | Standing |
+| :-- | :-- | :-- | :-- |
+| [ising_ea3d_n2084](ising_ea3d_n2084) | -3247.1509611380957 | **-3247.334606022995** | Reference improvement |
 
-| Case | Reference | Épi |
-| :-- | --: | --: |
-| [ising_ea3d_n2084](ising_ea3d_n2084) | -3247.1509611381 | **-3247.334606023** |
+[Complete construction index](../../data/records.json)

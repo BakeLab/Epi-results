@@ -1,11 +1,13 @@
-# Quantum circuit routing: qubit_routing
+# Qubit routing: 61 circuits on Q20, Willow and Heron
 
-Minimize routing overhead across 61 circuits, measured as three CNOTs per SWAP.
+| Previous comparison | Current source | Épi | Standing |
+| :-- | :-- | :-- | :-- |
+| 258366 | 258366 (recomputed) | **254226** | Reference improvement |
 
-| Reference | Épi | Direction |
-| :-- | :-- | :-- |
-| 258366 | **254226** | Lower is better |
+Minimize extra two-qubit gates across the specified 61 circuits.
 
-258366 is recomputed from the published circuit files; the upstream README reports 258369.
+All 61 final circuits replayed with the frozen verifier: allowed gates, device adjacency, logical-gate order and routing overhead.
 
-[Final circuits · compressed JSON](construction.json.gz) · [Full-precision result](result.json) · [Source](https://github.com/Tencent-Hunyuan/hyra-results/tree/main/AI4Science/qubit_routing)
+Hyra’s README prints 258369. Replaying its released circuits gives 258366; the comparison uses that recomputed total.
+
+[Final construction](construction.json.gz) · [Result data](result.json) · [Comparison source](https://github.com/Tencent-Hunyuan/hyra-results/tree/main/AI4Science/Minimize extra two-qubit gates across the specified 61 circuits.)

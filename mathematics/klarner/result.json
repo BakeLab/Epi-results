@@ -1,20 +1,30 @@
 {
   "id": "klarner",
   "title": "Klarner’s constant",
-  "reference": "4.5238",
-  "result": "4.405 = 881/200",
-  "meaning": "An upper bound on the exponential growth rate of the number of polyominoes.",
-  "source_url": "https://arxiv.org/abs/2511.00461",
-  "artifact_description": "321 rational inequalities and their supersolution at z = 200/881.",
+  "reviewed_on": "2026-09-11",
+  "status": "record",
+  "results": [
+    {
+      "id": "klarner",
+      "name": "Klarner’s constant λ (polyomino growth)",
+      "kind": "Upper bound",
+      "published": "4.5238",
+      "value": "4.29569",
+      "scope": "Exponential growth constant of all finite square-lattice polyominoes; the recurrence covers all sizes.",
+      "verification": "All 1,186 pattern types, 10,539 terms and 22,334 decomposition steps checked, together with an exact rational supersolution.",
+      "sources": [
+        {
+          "title": "A convolutional approach to bounding the number of polyominoes",
+          "url": "https://arxiv.org/abs/2511.00461"
+        }
+      ]
+    }
+  ],
   "artifacts": [
     {
-      "file": "certificate.json"
-    },
-    {
-      "file": "patterns.txt"
-    },
-    {
-      "file": "rules.txt"
+      "file": "certificate.json.gz",
+      "bytes": 216746,
+      "sha256": "921fcaac5e43f69b2fceb311146215e5aa01d5492e00045c78fc5354a72675f2"
     }
   ]
 }

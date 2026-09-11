@@ -1,17 +1,30 @@
 {
   "id": "ramsey-c45",
   "title": "Ramsey multiplicity c₄,₅",
-  "reference": "2129191/2²⁸",
-  "result": "1081216445/2³⁷",
-  "meaning": "A smaller upper bound on the limiting density of monochromatic cliques in two-colorings.",
-  "source_url": "https://arxiv.org/abs/2206.04036",
-  "artifact_description": "The final graph on 1024 vertices, in graph6 format and as a generating set.",
+  "reviewed_on": "2026-09-11",
+  "status": "record",
+  "results": [
+    {
+      "id": "c45",
+      "name": "Ramsey multiplicity c₄,₅",
+      "kind": "Upper bound",
+      "published": "2129191/2²⁸ ≈ 0.007931854575872",
+      "value": "4427841832181/2⁴⁹ ≈ 0.007865427122378",
+      "scope": "Asymptotic homomorphism-density sum t(K₄,W) + t(K₅,1−W), minimized over graphons; exact blow-up bound.",
+      "verification": "Separate exact graph and complement counts on 1,024 vertices, with the blow-up objective assembled from integer counts.",
+      "sources": [
+        {
+          "title": "New Ramsey Multiplicity Bounds and Search Heuristics",
+          "url": "https://arxiv.org/abs/2206.04036"
+        }
+      ]
+    }
+  ],
   "artifacts": [
     {
-      "file": "construction.graph6"
-    },
-    {
-      "file": "generators.txt"
+      "file": "construction.graph6",
+      "bytes": 87301,
+      "sha256": "6cd7a584e38ef71d009eb3e5efbfe0ca186246a0eff8c7e7d9bbdc3032e05f64"
     }
   ]
 }

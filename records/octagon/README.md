@@ -1,9 +1,9 @@
-# Circles in a regular octagon
+# Circles in an octagon
 
-Maximize the common radius inside a regular octagon of circumradius one.
+1 final constructions. Current standings reviewed on 2026-09-11.
 
-1 improved construction. Numerical values retain full precision in the linked JSON files.
+| Instance | Current source | Épi | Standing |
+| :-- | :-- | :-- | :-- |
+| [pack_coc_n32](pack_coc_n32) | 0.147282442434 | **0.14729738042484086** | Improves registry |
 
-| Case | Reference | Épi |
-| :-- | --: | --: |
-| [pack_coc_n32](pack_coc_n32) | 0.147282442434 | **0.147297380424841** |
+[Complete construction index](../../data/records.json)

@@ -1,21 +1,21 @@
 # Mathematical results
 
-Fifteen final results, with sources and their constructions or certificates. Several results cover a range of dimensions or parameters. Numerical enclosures are identified on their result pages.
+**20 numerical bound records and one theorem extension.** Each row links to the final witness or proof materials and the comparison source. Values and scope were reviewed on 2026-09-11.
 
-| Problem | Épi result |
+| Result | Épi |
 | :-- | :-- |
-| [Klarner’s constant](klarner) | 4.405 = 881/200 |
-| [Grothendieck constant of order four](grothendieck) | 1.681221823 |
 | [Wellens’ Boolean-function bound](wellens) | 4.3654674227 |
-| [Turán density of the tetrahedron](turan-tetrahedron) | 2351947/4194304 ≈ 0.560747861862 |
-| [Cap-body illumination](cap-body-illumination) | 102, 154, 233, 347, 514, 757, 1110 |
-| [Cohn–Elkies linear-programming bounds](cohn-elkies) | 0.057375415, 0.056433847, 0.057731802, 0.058740866, 0.063876952 |
-| [Spencer discrepancy constant](spencer-discrepancy) | 5/√8 ≈ 1.767767 |
-| [Dimer entropy in three dimensions](dimer) | upper bound 0.452009597554483 |
-| [The n-queens constant](nqueens) | [1.9440010215426898890, 1.944001037277282194256] |
-| [Ramsey multiplicity c₅](ramsey-c5) | 586467361/(2³²·3⁴) |
-| [Ramsey multiplicity c₄,₅](ramsey-c45) | 1081216445/2³⁷ |
-| [MAX-4-CUT hardness ratio](max4cut) | 6529501/6618824 ≈ 0.9865047023 |
-| [Timmons’ Bₕ[g] constants](bhg) | ≈ 14.287456, 70.289945, 408.107011, 2749.511553, 21149.342141 |
-| [Quartic Feigenbaum attractor](feigenbaum) | 0.6425750648687785366211294405358324482526899233599841409380665852517043047545 ± 10⁻⁷⁵ |
-| [Quantum capacity: X-Z and 2-Pauli channels](quantum-capacity) | checked noise rates 0.11953371; 0.11928637 |
+| [Cohn–Elkies linear-programming bounds](cohn-elkies) | 0.058044329039; 0.056433853144; 0.057731808202; 0.066440082613 |
+| [Spencer discrepancy](spencer-discrepancy) | 5/√8 ≈ 1.767767 |
+| [Cubic-lattice dimer constant](dimer) | 0.452010 |
+| [The n-queens constant](nqueens) | [1.9440010223327, 1.9440010262694] |
+| [Ramsey multiplicity c₄,₅](ramsey-c45) | 4427841832181/2⁴⁹ ≈ 0.007865427122378 |
+| [MAX-4-CUT hardness ratio](max4cut) | 84931/86101 ≈ 0.986411307651 |
+| [Klarner’s constant](klarner) | 4.29569 |
+| [Bₕ[g] upper-bound coefficients](bhg) | 14.287390218082; 70.289552594834; 408.104453996958; 2749.492485514635; 21149.189776156220 |
+| [Quartic Feigenbaum attractor dimension](feigenbaum) | [0.6425750638035370, 0.6425750659339700] |
+| [Quantum-capacity thresholds](quantum-capacity) | 0.1198803; 0.1193415 |
+| [Water-network design: waterund36](waterund36) | 662.80702839 |
+| [Tuza’s conjecture for a larger split-graph class](tuza) | τ△(G) ≤ 2ν△(G) |
+
+Large final witnesses are distributed through [Release downloads](../data/downloads.json). Decimal endpoints are rounded outward.
