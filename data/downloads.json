@@ -1,0 +1,34 @@
+{
+  "release": "v1.1.0",
+  "reviewed_on": "2026-09-11",
+  "files": [
+    {
+      "file": "certificate.json.gz",
+      "url": "https://github.com/HowieHwong/Epi-results/releases/download/v1.1.0/dimer-certificate.json.gz",
+      "bytes": 801229,
+      "sha256": "ff9bd398cd4faf3eeff38fa50b38e16438e65e9d448438e92877cd8f5f7feed8",
+      "result": "dimer"
+    },
+    {
+      "file": "lower-witness.json.gz",
+      "url": "https://github.com/HowieHwong/Epi-results/releases/download/v1.1.0/nqueens-lower-witness.json.gz",
+      "bytes": 2682942,
+      "sha256": "84739419f8307381e0aaaace04f6e7272bfef975558d245066697a594f6cb99b",
+      "result": "nqueens"
+    },
+    {
+      "file": "upper-witness.f64.zlib",
+      "url": "https://github.com/HowieHwong/Epi-results/releases/download/v1.1.0/upper-witness.f64.zlib",
+      "bytes": 409248981,
+      "sha256": "625d121c39e33737265c547f8c40bb3971d85e02b6d582cf8df34c40d235fa69",
+      "result": "nqueens"
+    },
+    {
+      "file": "certificate.zip",
+      "url": "https://github.com/HowieHwong/Epi-results/releases/download/v1.1.0/waterund36-certificate.zip",
+      "bytes": 16802186,
+      "sha256": "2a49943bffc1954e20452b869d5668ec1b0dacdbfe25b97566dc623f9a9d0c04",
+      "result": "waterund36"
+    }
+  ]
+}

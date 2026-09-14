@@ -1,0 +1,7 @@
+{
+  "n": 4096,
+  "x_length": 67141628,
+  "data": "upper-witness.f64.zlib",
+  "encoding": "zlib-compressed little-endian float64",
+  "decoded_bytes": 537133024
+}

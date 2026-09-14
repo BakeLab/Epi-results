@@ -1,0 +1,52 @@
+{
+  "id": "nqueens",
+  "title": "The n-queens constant",
+  "reviewed_on": "2026-09-11",
+  "status": "record",
+  "results": [
+    {
+      "id": "nqueens",
+      "name": "N-queens constant α",
+      "kind": "Enclosing interval",
+      "published": "[1.944000752, 1.944001082]",
+      "value": "[1.9440010223327, 1.9440010262694]",
+      "scope": "The asymptotic exponent α in the number of n-queens configurations, ((1 + o(1))n e⁻ᵅ)ⁿ.",
+      "verification": "Independent full-coordinate upper-witness check: 67,108,864 coordinates and 57,340 constraints. Lower endpoint uses the separate dual-functional audit.",
+      "note": "Width 3.9367 × 10⁻⁹, about 84 times narrower than the cited interval. Both displayed endpoints are rounded outward from the independent checks.",
+      "certified": {
+        "lower": "1.9440010223327620764109710754392945268451900508552237611799109614538678",
+        "upper": "1.9440010262693191365976163492172530127894168397546365212137197637"
+      },
+      "sources": [
+        {
+          "title": "Computing tighter bounds on the n-queens constant via Newton’s method",
+          "url": "https://web.stanford.edu/~boyd/papers/n_queens.html"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "lower-witness.json.gz",
+      "url": "https://github.com/HowieHwong/Epi-results/releases/download/v1.1.0/nqueens-lower-witness.json.gz",
+      "bytes": 2682942,
+      "sha256": "84739419f8307381e0aaaace04f6e7272bfef975558d245066697a594f6cb99b"
+    },
+    {
+      "file": "upper-witness.json",
+      "bytes": 161,
+      "sha256": "ae8a35918b872b9ee5bc96b90d55482cfe09f64c70dede14613d3447c8250c19"
+    },
+    {
+      "file": "upper-witness.f64.zlib",
+      "url": "https://github.com/HowieHwong/Epi-results/releases/download/v1.1.0/upper-witness.f64.zlib",
+      "bytes": 409248981,
+      "sha256": "625d121c39e33737265c547f8c40bb3971d85e02b6d582cf8df34c40d235fa69"
+    },
+    {
+      "file": "FORMAT.md",
+      "bytes": 1270,
+      "sha256": "d0dc0d32f5350a98128c9d723f14c9a685adac1b9854c95aa785194814794718"
+    }
+  ]
+}

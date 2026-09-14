@@ -1,0 +1,17 @@
+{
+  "id": "zhang_zagier_c82",
+  "category": "zhang-zagier",
+  "title": "Zhang–Zagier essential minimum: Zhang–Zagier essential minimum C₈₂",
+  "direction": "min",
+  "result": 0.2535744749068227,
+  "source_url": "https://github.com/teorth/optimizationproblems/blob/main/constants/82a.md",
+  "source": "Grinsztajn, C82 Zhang–Zagier bound",
+  "construction": "records/zhang-zagier/zhang_zagier_c82/construction.json",
+  "parameters": {},
+  "previous_comparison": 0.2536331090204145,
+  "current_reference": "0.2536331090204145",
+  "status": "improves_registry",
+  "reviewed_on": "2026-09-11",
+  "verification": "120-bit Arb integral certificate, with exact coprimality, rational-weight and degree checks. All 262,144 integration panels verified; the displayed upper bound is rounded outward.",
+  "artifact_sha256": "e85e26fa7122a2e68b19b2fa01e27e78bbd802450bce2a0d45717f09b930e559"
+}

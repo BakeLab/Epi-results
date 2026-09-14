@@ -1,0 +1,125 @@
+{
+  "id": "bhg",
+  "title": "Bₕ[g] upper-bound coefficients",
+  "reviewed_on": "2026-09-11",
+  "status": "record",
+  "results": [
+    {
+      "id": "bhg3",
+      "name": "Bₕ[g] coefficient, h = 3",
+      "kind": "Upper-bound coefficient",
+      "published": "14.3",
+      "value": "14.287390218082",
+      "scope": "Coefficient C3 in |A| ≤ (1 + o(1))(CₕgN)¹/ʰ for Bₕ[g]-sets A ⊆ [N], g ≥ 2.",
+      "verification": "Interval-certified kernel minimum; previous and new kernels checked with the same evaluator.",
+      "certified": {
+        "upper": "14.28739021808185162178"
+      },
+      "sources": [
+        {
+          "title": "Upper bounds for Bₕ[g]-sets with small h",
+          "url": "https://arxiv.org/abs/1604.00661"
+        }
+      ]
+    },
+    {
+      "id": "bhg4",
+      "name": "Bₕ[g] coefficient, h = 4",
+      "kind": "Upper-bound coefficient",
+      "published": "71.49",
+      "value": "70.289552594834",
+      "scope": "Coefficient C4 in |A| ≤ (1 + o(1))(CₕgN)¹/ʰ for Bₕ[g]-sets A ⊆ [N], g ≥ 2.",
+      "verification": "Interval-certified kernel minimum; previous and new kernels checked with the same evaluator.",
+      "certified": {
+        "upper": "70.28955259483365912807"
+      },
+      "sources": [
+        {
+          "title": "Upper bounds for Bₕ[g]-sets with small h",
+          "url": "https://arxiv.org/abs/1604.00661"
+        }
+      ]
+    },
+    {
+      "id": "bhg5",
+      "name": "Bₕ[g] coefficient, h = 5",
+      "kind": "Upper-bound coefficient",
+      "published": "413.07",
+      "value": "408.104453996958",
+      "scope": "Coefficient C5 in |A| ≤ (1 + o(1))(CₕgN)¹/ʰ for Bₕ[g]-sets A ⊆ [N], g ≥ 2.",
+      "verification": "Interval-certified kernel minimum; previous and new kernels checked with the same evaluator.",
+      "certified": {
+        "upper": "408.1044539969578019703"
+      },
+      "sources": [
+        {
+          "title": "Upper bounds for Bₕ[g]-sets with small h",
+          "url": "https://arxiv.org/abs/1604.00661"
+        }
+      ]
+    },
+    {
+      "id": "bhg6",
+      "name": "Bₕ[g] coefficient, h = 6",
+      "kind": "Upper-bound coefficient",
+      "published": "2774.16",
+      "value": "2749.492485514635",
+      "scope": "Coefficient C6 in |A| ≤ (1 + o(1))(CₕgN)¹/ʰ for Bₕ[g]-sets A ⊆ [N], g ≥ 2.",
+      "verification": "Interval-certified kernel minimum; previous and new kernels checked with the same evaluator.",
+      "certified": {
+        "upper": "2749.49248551463413937"
+      },
+      "sources": [
+        {
+          "title": "Upper bounds for Bₕ[g]-sets with small h",
+          "url": "https://arxiv.org/abs/1604.00661"
+        }
+      ]
+    },
+    {
+      "id": "bhg7",
+      "name": "Bₕ[g] coefficient, h = 7",
+      "kind": "Upper-bound coefficient",
+      "published": "21294.74",
+      "value": "21149.189776156220",
+      "scope": "Coefficient C7 in |A| ≤ (1 + o(1))(CₕgN)¹/ʰ for Bₕ[g]-sets A ⊆ [N], g ≥ 2.",
+      "verification": "Interval-certified kernel minimum; previous and new kernels checked with the same evaluator.",
+      "certified": {
+        "upper": "21149.18977615621943285"
+      },
+      "sources": [
+        {
+          "title": "Upper bounds for Bₕ[g]-sets with small h",
+          "url": "https://arxiv.org/abs/1604.00661"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "kernel-h3.json",
+      "bytes": 37194,
+      "sha256": "1ad499a3d2ec290402f5e4c2512f87800a74f6d46b912fbcbac58e02a5ac87c4"
+    },
+    {
+      "file": "kernel-h4.json",
+      "bytes": 28713,
+      "sha256": "e6c3ce080b7e27289a07c647711ebd1595ccdab45bef492676fa5f78dbcb4918"
+    },
+    {
+      "file": "kernel-h5.json",
+      "bytes": 19738,
+      "sha256": "b6a8bc3ed9154a565a9127269452e79759998c74766db7b7811f82ec5e00bbaa"
+    },
+    {
+      "file": "kernel-h6.json",
+      "bytes": 16372,
+      "sha256": "755acb3da7376864cf0ff9eda38a55fe8b523d09f38fc17fa653a3c72cb1dbec"
+    },
+    {
+      "file": "kernel-h7.json",
+      "bytes": 14527,
+      "sha256": "a47dfd4a60736ee72ba6ebec9f10e4698a5fee66d5408eff01dd0dc8903dd6e6"
+    }
+  ]
+}

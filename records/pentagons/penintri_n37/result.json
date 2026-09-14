@@ -1,0 +1,25 @@
+{
+  "id": "penintri_n37",
+  "category": "pentagons",
+  "title": "Pentagons in a triangle: N = 37",
+  "direction": "min",
+  "result": 13.634303491279889,
+  "source_url": "https://erich-friedman.github.io/packing/penintri/",
+  "source": "Erich Friedman, pentagons in triangles",
+  "construction": "records/pentagons/penintri_n37/construction.json",
+  "parameters": {
+    "n": 37,
+    "angle_unit": "radians",
+    "pentagon_side": 1,
+    "vertex_offset": "pi/10",
+    "overlap_tolerance": 1e-12
+  },
+  "literature_value": 13.66616,
+  "previous_comparison": 13.643594159525076,
+  "current_reference": "13.63430+",
+  "status": "listed_record",
+  "reviewed_on": "2026-09-11",
+  "verification": "All polygon pairs by separating axes; minimal upright enclosing triangle; tolerance 1e-12",
+  "artifact_sha256": "938c87a59623aef7c2341822147c6132f24a88d4a4d792c660367451ba22ccab",
+  "attribution": "Friedman credits Yue Huang; listed decimals are truncated."
+}

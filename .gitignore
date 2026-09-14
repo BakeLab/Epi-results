@@ -1,0 +1,13 @@
+# Keep this repository limited to final research artifacts.
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+*.log
+*.jsonl
+logs/
+traces/
+trajectories/
+sessions/
+checkpoints/
+cache*/

@@ -1,0 +1,31 @@
+{
+  "id": "dimer",
+  "title": "Cubic-lattice dimer constant",
+  "reviewed_on": "2026-09-11",
+  "status": "record",
+  "results": [
+    {
+      "id": "dimer",
+      "name": "Cubic-lattice dimer constant",
+      "kind": "Upper bound",
+      "published": "0.452130",
+      "value": "0.452010",
+      "scope": "Per-site entropy of perfect matchings of the infinite cubic lattice ℤ³.",
+      "verification": "Positive integer transfer-operator certificate; the final entropy bound is rounded upward.",
+      "sources": [
+        {
+          "title": "A new upper bound on the dimer constant of ℤ³",
+          "url": "https://arxiv.org/abs/2607.28810"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "certificate.json.gz",
+      "url": "https://github.com/HowieHwong/Epi-results/releases/download/v1.1.0/dimer-certificate.json.gz",
+      "bytes": 801229,
+      "sha256": "ff9bd398cd4faf3eeff38fa50b38e16438e65e9d448438e92877cd8f5f7feed8"
+    }
+  ]
+}

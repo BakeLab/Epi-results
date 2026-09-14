@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this collection when using the results or constructions."
+type: dataset
+title: "Épi Results"
+authors:
+  - name: "Epi Team"
+version: 1.1.0
+date-released: 2026-09-11
+url: "https://github.com/BakeLab/Epi-results"
+repository-code: "https://github.com/BakeLab/Epi-results"

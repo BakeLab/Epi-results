@@ -1,0 +1,21 @@
+{
+  "id": "pack_hsp4_n294",
+  "category": "four-dimensional-balls",
+  "title": "Balls in four dimensions: N = 294",
+  "direction": "max",
+  "result": 0.18882777473625065,
+  "source_url": "https://packomania.com/hsp4/hsp4.html",
+  "source": "Eckard Specht, Packomania",
+  "construction": "records/four-dimensional-balls/pack_hsp4_n294/construction.json",
+  "parameters": {
+    "container": "ball",
+    "dim": 4,
+    "n_objects": 294
+  },
+  "previous_comparison": 0.188826715133,
+  "current_reference": "0.188826715133",
+  "status": "improves_registry",
+  "reviewed_on": "2026-09-11",
+  "verification": "All pair distances and container boundaries; float64",
+  "artifact_sha256": "656641cf55ecfb911085a3756aa5bad2312f7334bdb385555747abb56c0e10e5"
+}

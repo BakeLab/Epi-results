@@ -1,0 +1,254 @@
+{
+  "scope": "Current numerical bound records, construction records and theorem extensions. Each final result is counted once.",
+  "reviewed_on": "2026-09-11",
+  "article": "https://bakeai.inc/research/articles/introducing-epi/",
+  "counts": {
+    "record_total": 120,
+    "numerical_records": 20,
+    "construction_records": 100,
+    "theorem_extensions": 1,
+    "numerical_families": 12,
+    "construction_families": 8,
+    "proof_families": 1,
+    "problem_families": 21
+  },
+  "counting": {
+    "unit": "One final result per distinct instance or parameter setting. An enclosing interval counts once.",
+    "theorem_extensions": "Reported separately from record_total."
+  },
+  "numerical_record_groups": [
+    {
+      "id": "wellens",
+      "result_ids": [
+        "wellens"
+      ]
+    },
+    {
+      "id": "cohn-elkies",
+      "result_ids": [
+        "ce9",
+        "ce10",
+        "ce11",
+        "ce13"
+      ]
+    },
+    {
+      "id": "spencer-discrepancy",
+      "result_ids": [
+        "spencer"
+      ]
+    },
+    {
+      "id": "dimer",
+      "result_ids": [
+        "dimer"
+      ]
+    },
+    {
+      "id": "nqueens",
+      "result_ids": [
+        "nqueens"
+      ]
+    },
+    {
+      "id": "ramsey-c45",
+      "result_ids": [
+        "c45"
+      ]
+    },
+    {
+      "id": "max4cut",
+      "result_ids": [
+        "max4"
+      ]
+    },
+    {
+      "id": "klarner",
+      "result_ids": [
+        "klarner"
+      ]
+    },
+    {
+      "id": "bhg",
+      "result_ids": [
+        "bhg3",
+        "bhg4",
+        "bhg5",
+        "bhg6",
+        "bhg7"
+      ]
+    },
+    {
+      "id": "feigenbaum",
+      "result_ids": [
+        "feigenbaum"
+      ]
+    },
+    {
+      "id": "quantum-capacity",
+      "result_ids": [
+        "xz",
+        "two-pauli"
+      ]
+    },
+    {
+      "id": "waterund36",
+      "result_ids": [
+        "waterund36"
+      ]
+    }
+  ],
+  "construction_record_groups": [
+    {
+      "category": "autocorrelation",
+      "records": 1,
+      "result_ids": [
+        "arena_third_autocorrelation_inequality"
+      ]
+    },
+    {
+      "category": "circular-quadrant",
+      "records": 46,
+      "result_ids": [
+        "pack_ccq_n155",
+        "pack_ccq_n176",
+        "pack_ccq_n240",
+        "pack_ccq_n247",
+        "pack_ccq_n283",
+        "pack_ccq_n289",
+        "pack_ccq_n298",
+        "pack_ccq_n305",
+        "pack_ccq_n310",
+        "pack_ccq_n322",
+        "pack_ccq_n342",
+        "pack_ccq_n377",
+        "pack_ccq_n388",
+        "pack_ccq_n393",
+        "pack_ccq_n394",
+        "pack_ccq_n396",
+        "pack_ccq_n397",
+        "pack_ccq_n398",
+        "pack_ccq_n403",
+        "pack_ccq_n405",
+        "pack_ccq_n408",
+        "pack_ccq_n412",
+        "pack_ccq_n422",
+        "pack_ccq_n426",
+        "pack_ccq_n438",
+        "pack_ccq_n451",
+        "pack_ccq_n455",
+        "pack_ccq_n456",
+        "pack_ccq_n461",
+        "pack_ccq_n464",
+        "pack_ccq_n465",
+        "pack_ccq_n477",
+        "pack_ccq_n479",
+        "pack_ccq_n486",
+        "pack_ccq_n493",
+        "pack_ccq_n496",
+        "pack_ccq_n498",
+        "pack_ccq_n521",
+        "pack_ccq_n530",
+        "pack_ccq_n534",
+        "pack_ccq_n544",
+        "pack_ccq_n551",
+        "pack_ccq_n585",
+        "pack_ccq_n589",
+        "pack_ccq_n592",
+        "pack_ccq_n87"
+      ]
+    },
+    {
+      "category": "four-dimensional-balls",
+      "records": 36,
+      "result_ids": [
+        "pack_hsp4_n103",
+        "pack_hsp4_n111",
+        "pack_hsp4_n117",
+        "pack_hsp4_n118",
+        "pack_hsp4_n119",
+        "pack_hsp4_n135",
+        "pack_hsp4_n139",
+        "pack_hsp4_n140",
+        "pack_hsp4_n157",
+        "pack_hsp4_n158",
+        "pack_hsp4_n164",
+        "pack_hsp4_n177",
+        "pack_hsp4_n181",
+        "pack_hsp4_n194",
+        "pack_hsp4_n195",
+        "pack_hsp4_n196",
+        "pack_hsp4_n202",
+        "pack_hsp4_n203",
+        "pack_hsp4_n208",
+        "pack_hsp4_n210",
+        "pack_hsp4_n220",
+        "pack_hsp4_n251",
+        "pack_hsp4_n252",
+        "pack_hsp4_n253",
+        "pack_hsp4_n255",
+        "pack_hsp4_n261",
+        "pack_hsp4_n265",
+        "pack_hsp4_n266",
+        "pack_hsp4_n284",
+        "pack_hsp4_n285",
+        "pack_hsp4_n286",
+        "pack_hsp4_n289",
+        "pack_hsp4_n294",
+        "pack_hsp4_n54",
+        "pack_hsp4_n62",
+        "pack_hsp4_n67"
+      ]
+    },
+    {
+      "category": "octagon",
+      "records": 1,
+      "result_ids": [
+        "pack_coc_n32"
+      ]
+    },
+    {
+      "category": "pentagons",
+      "records": 9,
+      "result_ids": [
+        "penintri_n30",
+        "penintri_n32",
+        "penintri_n33",
+        "penintri_n34",
+        "penintri_n36",
+        "penintri_n37",
+        "penintri_n38",
+        "penintri_n39",
+        "penintri_n40"
+      ]
+    },
+    {
+      "category": "semicircle",
+      "records": 5,
+      "result_ids": [
+        "pack_csc_n121",
+        "pack_csc_n133",
+        "pack_csc_n134",
+        "pack_csc_n169",
+        "pack_csc_n74"
+      ]
+    },
+    {
+      "category": "vehicle-routing",
+      "records": 1,
+      "result_ids": [
+        "cvrp_xl_n1048_k237"
+      ]
+    },
+    {
+      "category": "zhang-zagier",
+      "records": 1,
+      "result_ids": [
+        "zhang_zagier_c82"
+      ]
+    }
+  ],
+  "theorem_extension_ids": [
+    "tuza"
+  ]
+}

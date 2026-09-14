@@ -1,0 +1,21 @@
+{
+  "id": "pack_ccq_n394",
+  "category": "circular-quadrant",
+  "title": "Circles in a quadrant: N = 394",
+  "direction": "max",
+  "result": 0.023337438762500655,
+  "source_url": "https://packomania.com/ccq/ccq.html",
+  "source": "Eckard Specht, Packomania",
+  "construction": "records/circular-quadrant/pack_ccq_n394/construction.json",
+  "parameters": {
+    "container": "quadrant",
+    "dim": 2,
+    "n_objects": 394
+  },
+  "previous_comparison": 0.02333644993357691,
+  "current_reference": "0.023336449933576908392790881778",
+  "status": "improves_registry",
+  "reviewed_on": "2026-09-11",
+  "verification": "All pair distances and container boundaries; float64",
+  "artifact_sha256": "79d60dc557704a3b94aeac5fa27378bb85ad44176846927d5830020fd1150246"
+}

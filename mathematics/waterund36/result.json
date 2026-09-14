@@ -1,0 +1,44 @@
+{
+  "id": "waterund36",
+  "title": "Water-network design: waterund36",
+  "reviewed_on": "2026-09-11",
+  "status": "record",
+  "results": [
+    {
+      "id": "waterund36",
+      "name": "Water-network design, waterund36",
+      "kind": "Global lower bound",
+      "published": "655.5441707 (MINLPLib)",
+      "value": "662.80702839",
+      "scope": "The original continuous waterund36 minimization instance, with 324 variables and 239 constraints.",
+      "verification": "Exact support-chain certificate excludes the stated objective cutoff for a relaxation containing the original feasible set. The final lower bound is rounded downward.",
+      "note": "The known feasible value is 662.8070384, leaving a gap of about 0.00001001. Castro’s No-sBB result implies a lower bound around 655.79 from its rounded gap; Épi also improves that bound. The result tightens the global lower bound.",
+      "certified": {
+        "lower": "6628070283996671/10000000000000"
+      },
+      "sources": [
+        {
+          "title": "waterund36: current primal and dual bounds",
+          "url": "https://minlplib.org/waterund36.html"
+        },
+        {
+          "title": "Water-network global optimization study and supplementary results",
+          "url": "https://doi.org/10.1021/acs.iecr.3c00191"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "certificate.zip",
+      "url": "https://github.com/HowieHwong/Epi-results/releases/download/v1.1.0/waterund36-certificate.zip",
+      "bytes": 16802186,
+      "sha256": "2a49943bffc1954e20452b869d5668ec1b0dacdbfe25b97566dc623f9a9d0c04"
+    },
+    {
+      "file": "PROOF.md",
+      "bytes": 5022,
+      "sha256": "37299a6a5f21fb422736bc57dc95c94ac8c11af06c5ed3bcc81f3cc9c6f3bd67"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "wellens",
+  "title": "Wellens’ Boolean-function bound",
+  "reviewed_on": "2026-09-11",
+  "status": "record",
+  "results": [
+    {
+      "id": "wellens",
+      "name": "Wellens’ D∞",
+      "kind": "Upper bound",
+      "published": "4.3935",
+      "value": "4.3654674227",
+      "scope": "D∞ in Wellens’ Boolean-function inequality; n(f) ≤ D∞ · 2^deg(f).",
+      "verification": "Exact rational feasibility and infeasibility certificates, followed by the degree recurrence and tail bound.",
+      "sources": [
+        {
+          "title": "Relationships between the number of inputs and other complexity measures of Boolean functions",
+          "url": "https://arxiv.org/abs/2005.00566"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "certificate.json",
+      "bytes": 108347,
+      "sha256": "ce66f1097a7284e9845113fa1dc39267932cc934fd23d9019ff13d3dcb39cf49"
+    }
+  ]
+}

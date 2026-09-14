@@ -1,0 +1,21 @@
+{
+  "id": "pack_hsp4_n140",
+  "category": "four-dimensional-balls",
+  "title": "Balls in four dimensions: N = 140",
+  "direction": "max",
+  "result": 0.22452921103255322,
+  "source_url": "https://packomania.com/hsp4/hsp4.html",
+  "source": "Eckard Specht, Packomania",
+  "construction": "records/four-dimensional-balls/pack_hsp4_n140/construction.json",
+  "parameters": {
+    "container": "ball",
+    "dim": 4,
+    "n_objects": 140
+  },
+  "previous_comparison": 0.224518599354,
+  "current_reference": "0.224518599354",
+  "status": "improves_registry",
+  "reviewed_on": "2026-09-11",
+  "verification": "All pair distances and container boundaries; float64",
+  "artifact_sha256": "cff661af9a7335ff67a216bec84c43b1a579a6c65f2ae3824e1ee94c99f24b33"
+}

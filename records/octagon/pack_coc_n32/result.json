@@ -1,0 +1,21 @@
+{
+  "id": "pack_coc_n32",
+  "category": "octagon",
+  "title": "Circles in an octagon: N = 32",
+  "direction": "max",
+  "result": 0.14729738042484086,
+  "source_url": "https://packomania.com/coc/coc.html",
+  "source": "Eckard Specht, Packomania",
+  "construction": "records/octagon/pack_coc_n32/construction.json",
+  "parameters": {
+    "container": "octagon",
+    "dim": 2,
+    "n_objects": 32
+  },
+  "previous_comparison": 0.147282442434,
+  "current_reference": "0.147282442434",
+  "status": "improves_registry",
+  "reviewed_on": "2026-09-11",
+  "verification": "All pair distances and container boundaries; float64",
+  "artifact_sha256": "8fc5f4364da4470561d54f4ffaf39551d0bd967cb4ba3048574143ba3b4d40ec"
+}

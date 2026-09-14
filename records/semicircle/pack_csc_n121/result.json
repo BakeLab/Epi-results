@@ -1,0 +1,21 @@
+{
+  "id": "pack_csc_n121",
+  "category": "semicircle",
+  "title": "Circles in a semicircle: N = 121",
+  "direction": "max",
+  "result": 0.05839957598467423,
+  "source_url": "https://packomania.com/csc/csc.html",
+  "source": "Eckard Specht, Packomania",
+  "construction": "records/semicircle/pack_csc_n121/construction.json",
+  "parameters": {
+    "container": "semicircle",
+    "dim": 2,
+    "n_objects": 121
+  },
+  "previous_comparison": 0.05839860817107424,
+  "current_reference": "0.058398608171074243638896829099",
+  "status": "improves_registry",
+  "reviewed_on": "2026-09-11",
+  "verification": "All pair distances and container boundaries; float64",
+  "artifact_sha256": "7d9a483de1859c9719d39fddcf42a8ca7e045749665f6950d1c90b900f95fb1d"
+}

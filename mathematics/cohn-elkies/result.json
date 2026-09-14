@@ -1,0 +1,136 @@
+{
+  "id": "cohn-elkies",
+  "title": "Cohn–Elkies linear-programming bounds",
+  "reviewed_on": "2026-09-11",
+  "status": "record",
+  "results": [
+    {
+      "id": "ce9",
+      "name": "Cohn–Elkies LP, d = 9",
+      "kind": "Lower bound on LP optimum",
+      "published": "1/20",
+      "value": "0.058044329039",
+      "scope": "Lower bound on the optimal Cohn–Elkies LP output in dimension 9, in center-density normalization.",
+      "verification": "Exact support and discrete Fourier inequalities checked by a separate implementation.",
+      "certified": {
+        "lower": "11792894031245550748851605315432758917168672493536959/497664000000000000000000000000000000000000000000000000*sqrt(6)"
+      },
+      "sources": [
+        {
+          "title": "Dual Linear Programming Bounds for Sphere Packing via Discrete Reductions",
+          "url": "https://arxiv.org/abs/2206.09876"
+        },
+        {
+          "title": "Dual linear programming bounds for sphere packing via modular forms",
+          "url": "https://arxiv.org/abs/1909.04772"
+        },
+        {
+          "title": "Three-point bounds for sphere packing",
+          "url": "https://arxiv.org/abs/2206.15373"
+        }
+      ]
+    },
+    {
+      "id": "ce10",
+      "name": "Cohn–Elkies LP, d = 10",
+      "kind": "Lower bound on LP optimum",
+      "published": "1/24",
+      "value": "0.056433853144",
+      "scope": "Lower bound on the optimal Cohn–Elkies LP output in dimension 10, in center-density normalization.",
+      "verification": "Exact support and discrete Fourier inequalities checked by a separate implementation.",
+      "note": "Exceeds the known sphere-packing upper bound in this dimension, so the Cohn–Elkies LP cannot be sharp.",
+      "certified": {
+        "lower": "9029416503187629023767148726564823609761425576084033001/160000000000000000000000000000000000000000000000000000000"
+      },
+      "sources": [
+        {
+          "title": "Dual Linear Programming Bounds for Sphere Packing via Discrete Reductions",
+          "url": "https://arxiv.org/abs/2206.09876"
+        },
+        {
+          "title": "Dual linear programming bounds for sphere packing via modular forms",
+          "url": "https://arxiv.org/abs/1909.04772"
+        },
+        {
+          "title": "Three-point bounds for sphere packing",
+          "url": "https://arxiv.org/abs/2206.15373"
+        }
+      ]
+    },
+    {
+      "id": "ce11",
+      "name": "Cohn–Elkies LP, d = 11",
+      "kind": "Lower bound on LP optimum",
+      "published": "1/24",
+      "value": "0.057731808202",
+      "scope": "Lower bound on the optimal Cohn–Elkies LP output in dimension 11, in center-density normalization.",
+      "verification": "Exact support and discrete Fourier inequalities checked by a separate implementation.",
+      "note": "Exceeds the known sphere-packing upper bound in this dimension, so the Cohn–Elkies LP cannot be sharp.",
+      "certified": {
+        "lower": "12909224760580390093795836831151924985720990620013/500000000000000000000000000000000000000000000000000*sqrt(5)"
+      },
+      "sources": [
+        {
+          "title": "Dual Linear Programming Bounds for Sphere Packing via Discrete Reductions",
+          "url": "https://arxiv.org/abs/2206.09876"
+        },
+        {
+          "title": "Dual linear programming bounds for sphere packing via modular forms",
+          "url": "https://arxiv.org/abs/1909.04772"
+        },
+        {
+          "title": "Three-point bounds for sphere packing",
+          "url": "https://arxiv.org/abs/2206.15373"
+        }
+      ]
+    },
+    {
+      "id": "ce13",
+      "name": "Cohn–Elkies LP, d = 13",
+      "kind": "Lower bound on LP optimum",
+      "published": "1/28",
+      "value": "0.066440082613",
+      "scope": "Lower bound on the optimal Cohn–Elkies LP output in dimension 13, in center-density normalization.",
+      "verification": "Exact support and discrete Fourier inequalities checked by a separate implementation.",
+      "certified": {
+        "lower": "1485645411552004777594244686436341070155892026152803/50000000000000000000000000000000000000000000000000000*sqrt(5)"
+      },
+      "sources": [
+        {
+          "title": "Dual Linear Programming Bounds for Sphere Packing via Discrete Reductions",
+          "url": "https://arxiv.org/abs/2206.09876"
+        },
+        {
+          "title": "Dual linear programming bounds for sphere packing via modular forms",
+          "url": "https://arxiv.org/abs/1909.04772"
+        },
+        {
+          "title": "Three-point bounds for sphere packing",
+          "url": "https://arxiv.org/abs/2206.15373"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "certificate-d10.json",
+      "bytes": 212721,
+      "sha256": "9a26f274560304343a8a6c03bc5619e10cec6a5f58cf492dd61bb209d57e9999"
+    },
+    {
+      "file": "certificate-d11.json.gz",
+      "bytes": 71822,
+      "sha256": "8a2f3443c6ae0c79b1e7de0e5dc6289e5815ff0d909b1c30ec0a71dd2837b68d"
+    },
+    {
+      "file": "certificate-d13.json.gz",
+      "bytes": 156416,
+      "sha256": "19d9c6042445d3421675f427e85ab392b4d59da6dccefa8d49898b66646a7ff7"
+    },
+    {
+      "file": "certificate-d9.json.gz",
+      "bytes": 97594,
+      "sha256": "9abd7ef1707ff2a2c4b7da490b31f2483c013d61667bdffbb2f75bdd2502be7a"
+    }
+  ]
+}
